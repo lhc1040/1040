@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableView">
+        <attr name="maxVisibleWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="OsmAndTheme">
+        <attr name="expandable_category_color" format="reference"/>
+        <attr name="reset_image" format="reference"/>
+    </declare-styleable>
+</resources>

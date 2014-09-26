@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gpx_color_point">#cd2c33</color>
+    <color name="gpx_speed">#c79c00</color>
+    <color name="gpx_altitude_desc">#32CD32</color>
+    <color name="gpx_altitude_asc">#EE3232</color>
+    <color name="gpx_distance_color">#ffa500</color>
+    <color name="gpx_time_span_color">#0080FF</color>
+    
+	<color name="color_transparent">#00000000</color>
+    <color name="color_favorite">#eecc22</color>
+	<!-- style colors  -->
+	<color name="group_background">#A5A5A5</color>
+	<!-- <color name="activity_background">#666666</color>  -->
+
+	<!-- Distance to object suitable for all themes -->
+	<color name="color_distance">#FD9822</color>
+
+	<!-- Old dialogs colors -->
+	<color name="color_white">#FFFFFF</color>
+	<color name="color_black">#000000</color>
+	
+	<color name="row_selection_color">#CC33BBE0</color>
+	
+	<!-- Themed color list items -->
+	<!-- invalid -red, localindex not supported,  -->
+	<color name="color_invalid">#EE3232</color>
+	<!-- warning -red, localindex is corrupted, poi closed, osm_delete -->
+	<color name="color_warning">#EE3232</color>
+	<!-- normal state, localindex unknown, poi unknown, index_unknown  -->
+	<color name="color_unknown">#C8C8C8</color>
+	<!-- good state, localindex loaded, poi_open, osm_create, index_ok   -->
+	<color name="color_ok">#32CD32</color>
+	<!-- update good state, osm_modify, index_update -->
+	<color name="color_update">#0080FF</color>
+	
+	<!-- Map colors, layers, special purpose consistency colors -->
+	<color name="pos_heading">#320000FF</color>
+	<color name="pos_heading_night">#880000FF</color>
+	<color name="pos_area">#280000FF</color>
+	<color name="pos_area_night">#660000FF</color>
+	<color name="pos_around">#707CDC</color>  <!-- family blue similar to above -->
+
+	<color name="gpx_track">#B4B319FF</color>
+	<color name="gpx_track_fluorescent">#B400FFFF</color>
+	<!-- <color name="gpx_track_fluorescent">#B4FF00FF</color>  Magenta is alternate track color for cyan but less contrast in many situations:  -->
+
+	<color name="nav_track">#CCaa0088</color>
+	<color name="nav_track_fluorescent">#CC00ddff</color>
+
+	<color name="nav_arrow_distant">#C0C0C0</color>
+	<color name="nav_arrow">#FADE23</color>
+	<color name="nav_arrow_imminent">#2EFF00</color>
+
+	<color name="nav_point">#FA5050</color> 
+	<color name="poi_background">#A0FF8000</color>
+
+	<color name="transport_stop">#960000FF</color>
+	<color name="transport_int">#9632C832</color>
+	<color name="transport_end">#96FF0000</color>
+
+	<color name="osmbug_opened">#C8FF0000</color> <!-- standard RED -->
+	<color name="osmbug_closed">#C800FF00</color> <!-- standard GREEN -->
+	<color name="osmbug_not_submitted">#C8FFFF00</color> <!-- standard YELLOW -->
+
+	<color name="distance_color">#dd6CB336</color>
+	<color name="shadow_color">#33888888</color>
+	<color name="sherpafy_selection">#ff33b5e5</color>
+	<color name="sherpafy_add_text">#b9b9b9</color>
+	
+</resources>

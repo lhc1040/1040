@@ -1,0 +1,1933 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="search_button">Iskanje</string>
+	<string name="search_activity">Iskanje</string>
+	<string name="settings_Button">Nastavitve</string>
+	<string name="favorites_Button">Moji kraji</string>
+	<string name="map_Button">Zemljevid</string>
+	<string name="choose_available_region">Izberi regijo iz seznama</string>
+	<string name="incremental_search_city">Sprotno iskanje mest</string>
+	<string name="searchpoi_activity">Izberi POI</string>
+	<string name="search_POI_level_btn">Več zadetkov</string>
+	<string name="incremental_search_street">Sprotno iskanje ulice</string>
+	<string name="incremental_search_building">Sprotno iskanje hišne številke</string>
+	<string name="choose_intersected_street">Izberi sekajočo cesto</string>
+	<string name="Closest_Amenities">Najbližje usluge</string>
+	<string name="app_mode_car">Avto</string>
+	<string name="app_mode_bicycle">Kolo</string>
+	<string name="app_mode_pedestrian">Peš</string>
+	<string name="app_mode_default">Privzeto</string>
+	<string name="position_on_map_center">Sredina</string>
+	<string name="position_on_map_bottom">Dno</string>
+	<string name="navigate_point_top_text">Vnesi zemljepisno širino in dolžino v izbrani obliki (D - stopinje, M - minute, S - sekunde)</string>
+	<string name="navigate_point_latitude">Širina</string>
+	<string name="navigate_point_longitude">Dolžina</string>
+	<string name="navigate_point_format_D">DDD.DD</string>
+	<string name="navigate_point_format_DM">DDD MM.MM</string>
+	<string name="navigate_point_format_DMS">DDD MM SS.SS</string>
+	<string name="search_shown_on_map">Prikaži na karti</string>
+	<string name="navigate_point_cancel">Prekliči</string>
+	<string name="search_address_top_text">Izberi naslov</string>
+	<string name="search_address_region">Regija</string>
+	<string name="search_address_city">Kraj</string>
+	<string name="search_address_street">Ulica</string>
+	<string name="search_address_building">Hiša</string>
+	<string name="search_address_building_option">Hiša</string>
+	<string name="search_address_street_option">Sekajoča cesta</string>
+	<string name="context_menu_item_add_favorite">Dodaj med priljubljene</string>
+	<string name="default_buttons_yes">Da</string>
+	<string name="default_buttons_no">Ne</string>
+	<string name="default_buttons_cancel">Prekliči</string>
+	<string name="default_buttons_add">Dodaj</string>
+	<string name="default_buttons_apply">Uporabi</string>
+	<string name="context_menu_item_create_poi">Ustvari POI</string>
+	<string name="context_menu_item_open_bug">Prijavi OSM napako</string>
+	<string name="context_menu_item_update_map">Osveži karto</string>
+	<string name="search_tabs_location">Mesto</string>
+	<string name="add_favorite_dialog_default_favourite_name">Priljubljena lokacija</string>
+	<string name="add_favorite_dialog_top_text">Vnesite ime priljubljene lokacije</string>
+	<string name="favourites_context_menu_edit">Uredi priljubljeno lokacijo</string>
+	<string name="favourites_context_menu_delete">Briši priljubljeno lokacijo</string>
+	<string name="add_favorite_dialog_favourite_added_template">Priljubljena lokacija \'\'{0}\'\' je bila dodana.</string>
+	<string name="favourites_remove_dialog_msg">Odstrani priljubljeno lokacijo \'%s\'?</string>
+	<string name="favourites_remove_dialog_success">Priljubljena točka {0} je bila izbrisana.</string>
+	<string name="poi_edit_title">Uredi POI</string>
+	<string name="poi_create_title">Ustvari POI</string>
+	<string name="poi_error_poi_not_found">Točke ni mogoče najti ali pa usluga ni samostojna točka</string>
+	<string name="poi_remove_confirm_template">Brisanje {0} (vpišite komentar)?</string>
+	<string name="poi_remove_title">Briši POI</string>
+	<string name="default_buttons_delete">Briši</string>
+	<string name="poi_remove_success">POI je bila uspešno izbrisana</string>
+	<string name="poi_action_add">Dodajanje</string>
+	<string name="poi_action_change">Popravljanje</string>
+	<string name="poi_action_succeded_template">{0} je bilo uspešno.</string>
+	<string name="poi_error_unexpected_template">Med izvajanjem dejanja {0} prišlo do nepričakovane napake.</string>
+	<string name="poi_error_io_error_template">Prišlo je do I/O napake pri izvajanju dejanja {0}.</string>
+	<string name="poi_error_info_not_loaded">Informacije o točki niso bile naložene</string>
+	<string name="poi_dialog_name">Ime</string>
+	<string name="poi_dialog_opening_hours">Odprto</string>
+	<string name="poi_dialog_comment">Opomba</string>
+	<string name="poi_dialog_comment_default">Opis spremembe</string>
+	<string name="poi_dialog_other_tags_message">Vse ostale oznake se ohranjajo</string>
+	<string name="default_buttons_commit">Pošlji</string>
+	<string name="filter_current_poiButton">Filter</string>
+	<string name="edit_filter_delete_menu_item">Briši</string>
+	<string name="edit_filter_save_as_menu_item">Shrani kot</string>
+	<string name="edit_filter_delete_dialog_title">Ali želite izbrisati izbrani filter?</string>
+	<string name="edit_filter_delete_message">Filter {0} je bil izbrisan</string>
+	<string name="edit_filter_create_message">Filter {0} je bil ustvarjen</string>
+	<string name="default_buttons_selectall">Izberi vse</string>
+	<string name="email">E-pošta</string>
+<string name="tip_recent_changes_0_8_4_t">Spremembe v 0.8.4:
+	\n\t* Odpravljene nekatere napake
+	\n\t* Zemljevid med prekinitvami ne izgubi pridobljenega položaja
+	\n\t* Med navigacijo je omogočeno izvajanje storitev v pripravljenosti
+    </string>
+    <string name="tip_recent_changes_0_8_3_t">"Spremembe v 0.8.3:
+\n\t* Vmesne točke
+\n\t* Izboljšano vodenje po poti
+\n\t* Možnost izogibanja avtocest pri pripravi poti\n\t* Dodana še ena zvrst kolesarskih cest na zemljevid (Cycleway=track)
+\n\t* Odpravljeno veliko napak "</string>
+    <string name="context_menu_item_first_intermediate_point">Določi prvo vmesno točko</string>
+    <string name="context_menu_item_last_intermediate_point">Določi zadnjo vmesno točko</string>
+    <string name="add_as_last_destination_point">Dodaj kot zadnjo vmesno točko</string>
+    <string name="add_as_first_destination_point">Dodaj kot prvo vmesno točko</string>
+    <string name="replace_destination_point">Zamenjaj cilj</string>
+    <string name="new_destination_point_dialog">Cilj je že nastavljen.</string>
+    <string name="context_menu_item_intermediate_point">Dodaj vmesno točko</string>
+    <string name="arrived_at_intermediate_point">Prispeli ste do vmesne točke</string>
+    <string name="intermediate_point_too_far">Vmesne točke %1$s je predaleč od najbližje ceste.</string>
+    <string name="map_widget_intermediate_distance">Vmesna točka</string>
+    <string name="ending_point_too_far">Cilj je predaleč od najbližje ceste.</string>
+    <string name="btn_add_tag">Dodaj oznako</string>
+    <string name="btn_advanced_mode">Napreden način …</string>
+    <string name="poi_filter_parking">Parkirišče</string>
+    <string name="poi_filter_public_transport">Javni prevoz</string>
+    <string name="poi_filter_accomodation">Nastanitev</string>
+    <string name="poi_filter_restaurants">Restavracije</string>
+    <string name="poi_filter_sightseeing">Turizem</string>
+    <string name="poi_filter_entertainment">Zabava</string>
+    <string name="show_warnings_title">Pokaži alarme …</string>
+	<string name="show_warnings_descr">Prikaz omejitve hitrosti, hitrostne kamere, grbine in druga opozorila</string>
+	<string name="use_compass_navigation_descr">Uporabi kompas, ko ni mogoče določiti smeri</string>
+	<string name="use_compass_navigation">Uporabi kompas</string>
+	<string name="avoid_motorway">Izogibanje avtocest</string>
+	<string name="exit_Button">Izhod</string>
+	<string name="settings_activity">Nastavitve</string>
+	<string name="map_preferences">Zemljevid</string>
+	<string name="show_gps_coordinates_text">Prikaži GPS koordinate na karti</string>
+	<string name="show_location">Prikaži mesto</string>
+	<string name="use_internet_to_download_tile">Uporabi internet za prenos manjkajočih delov karte</string>
+	<string name="app_description">Navigacijska aplikacija</string>
+	<string name="use_internet">Uporabi internet</string>
+	<string name="show_poi_over_map">Prikaži POI</string>
+	<string name="choose_city">Izberi mesto</string>
+	<string name="choose_building">Izberi hišno številko</string>
+	<string name="choose_street">Izberi ulico</string>
+	<string name="ChooseCountry">Izberi državo</string>
+	<string name="show_view_angle">Prikaži smer</string>
+	<string name="favourites_activity">Priljubljene</string>
+	<string name="add_to_favourite">Dodaj med priljubljene</string>
+	<string name="use_english_names_descr">Izberi prikaz avtohtonih oz. angleških imen</string>
+	<string name="use_english_names">Uporabi angleška imena na karti</string>
+	<string name="app_settings">Nastavitve programa</string>
+	<string name="search_address">Iskanje naslova</string>
+	<string name="poi_search_desc">Iskanje POI (Zanimivosti)</string>
+	<string name="address_search_desc">Iskanje naslova</string>
+	<string name="navpoint_search_desc">Koordinate</string>
+	<string name="transport_search_desc">Iskanje javnih prevozov</string>
+	<string name="favourites_search_desc">Iskanje priljubljenih</string>
+	<string name="history_search_desc">Iskanje po zgodovini</string>
+	<string name="offline_navigation_not_available">OsmAnd offline navigacija trenutno ni na voljo.</string>
+	<string name="left_side_navigation">Vožnja po levi strani</string>
+	<string name="left_side_navigation_descr">Izberite za države, kjer se vozi po levi strani ceste</string>
+	<string name="unknown_from_location">Izhodišče ni še določeno</string>
+	<string name="unknown_location">Lokacija še ni znana</string>
+	<string name="modify_transparency">Spremeni prosojnost (0 - prosojno, 255 - neprosojno)</string>
+	<string name="confirm_interrupt_download">Ali želite prekiniti nalaganje datoteke?</string>
+	<string name="basemap_was_selected_to_download">Basemap je potrebna za pravilno delovanje programa in je bila izbrana za prenos.</string>
+	<string name="map_widget_reset">Nastavi na privzeto</string>
+	<string name="map_widget_parking">Parkiranje</string>
+	<string name="map_widget_monitoring">Sledenje</string>
+	<string name="map_widget_speed">Hitrost</string>
+	<string name="map_widget_right_stack">Desna stran:</string>
+	<string name="map_widget_left_stack">Leva stran:</string>
+	<string name="map_widget_compass">Kompas</string>
+	<string name="map_widget_lock_screen">Zakleni ekran</string>
+	<string name="map_widget_back_to_loc">Kje sem</string>
+	<string name="map_widget_config">Nastavite zaslona</string>
+	<string name="map_widget_top_stack">Statusna vrstica:</string>
+	<string name="map_widget_distance">Cilj</string>
+	<string name="map_widget_altitude">Višina</string>
+	<string name="map_widget_time">Čas do cilja</string>
+	<string name="map_widget_next_turn">Naslednji zavoj</string>
+	<string name="map_widget_next_turn_small">Naslednji zavoj (majhen)</string>
+	<string name="map_widget_next_next_turn">Drugi naslednji zavoj</string>
+	<string name="bg_service_screen_lock">Zakleni ekran</string>
+	<string name="bg_service_screen_unlock">Odkleni ekran</string>
+	<string name="bg_service_screen_lock_toast">Ekran je zaklenjen</string>
+	<string name="bg_service_interval">Nastavitev intervala prebujanja:</string>
+	<string name="show_cameras">Pokaži hitrostne kamere</string>
+	<string name="show_traffic_warnings">Prikaži omejitve hitrosti</string>
+	<string name="avoid_toll_roads">Izogibanje cestninskih cest</string>
+	<string name="continue_follow_previous_route_auto">Prejšnje vodenje ni končano. Nadaljujem vodenje? (%1$s sekund)</string>
+	<string name="route_updated_loc_found">Pot bo ponovno izračunana, ko bo določena lokacija</string>
+	<string name="osmand_parking_hours">Ur</string>
+	<string name="osmand_parking_minutes">Minut</string>
+	<string name="osmand_parking_position_description_add_time">Avto je bil parkiran na:</string>
+	<string name="tip_recent_changes_0_8_1_t">"Spremembe v 0.8.1:
+\n\t* Natančnejše poti (malo počasneje)
+\n\t* Pameten in hiter ponoven izračun poti
+\n\t* Usmerjanje po pasovih
+\n\t* Informacije o omejitvah hitrosti, radarjih in ležečih policajih
+\n\t* Izboljšano glasovno vodenje na avtocestah
+\n\t* Vtičnik za parkiranje (\'Kje je moj avto parkiran?\')
+\n\t* Pripomoček za vklop/izklop beleženja "</string>
+	<string name="global_app_allocated_memory_descr">Uporabljen pomnilnik %1$s MB (Android %2$s MB, Dalvik %3$s MB).</string>
+	<string name="global_app_allocated_memory">Uporabljen pomnilnik</string>
+	<string name="starting_point_too_far">Izhodišče predaleč od najbližje ceste.</string>
+	<string name="rendering_attr_noPolygons_description">Naredite vse ploskovne entitete na zemljevidu prosojne</string>
+	<string name="rendering_attr_noPolygons_name">Brez ploskev</string>
+	<string name="rendering_attr_appMode_name">Način izrisa</string>
+	<string name="rendering_attr_appMode_description">Optimiziranje karte za</string>
+	<string name="rendering_attr_contourLines_name">Prikaži izohipse</string>
+	<string name="zoomOut">Oddalji</string>
+	<string name="zoomIn">Približaj</string>
+	<string name="zoomIs">Povečava je</string>
+	<string name="north">sever</string>
+	<string name="north_north_east">sever-severovzhod</string>
+	<string name="north_east">severovzhod</string>
+	<string name="east_north_east">vzhod-severovzhod</string>
+	<string name="east">vzhod</string>
+	<string name="east_south_east">vzhod-jugovzhod</string>
+	<string name="south_east">jugovzhod</string>
+	<string name="south_south_east">jug-jugovzhod</string>
+	<string name="south">jug</string>
+	<string name="south_south_west">jug-jugozahod</string>
+	<string name="south_west">jugozahod</string>
+	<string name="west_south_west">zahod-jugozahod</string>
+	<string name="west">zahod</string>
+	<string name="west_north_west">zahod-severozahod</string>
+	<string name="north_west">severozahod</string>
+	<string name="north_north_west">sever-severozahod</string>
+	<string name="front">Spredaj</string>
+	<string name="front_right">Spredaj desno</string>
+	<string name="right">Desno</string>
+	<string name="back_right">Zadaj desno</string>
+	<string name="back">Zadaj</string>
+	<string name="back_left">Zadaj levo</string>
+	<string name="left">Levo</string>
+	<string name="front_left">Spredaj levo</string>
+	<string name="oclock">uri</string>
+	<string name="towards">proti</string>
+	<string name="accuracy">Naatančnost</string>
+	<string name="altitude">Višina</string>
+	<string name="no_info">Ni podatkov</string>
+	<string name="direction_style_sidewise">Bočno (8 sektorjev)</string>
+	<string name="direction_style_clockwise">Urno (12 sektorjev)</string>
+	<string name="settings_direction_style">Stil smeri</string>
+	<string name="settings_direction_style_descr">Izberi stil za izražanje smeri med premikanjem</string>
+	<string name="i_am_here">Tukaj sem</string>
+	
+	
+	<string name="save_route_as_gpx">Shrani pot kot datoteko GPX</string>
+	
+	<string name="osmand_monitoring_description">Pokaži nastavitve, ki določajo snemanje sledi v GPX datoteke oz. sledenje v živo s pomočjo spletne storitve.</string>
+	<string name="send_files_to_osm">Pošljem datoteko GPX na OSM?</string>
+	<string name="validate_gpx_upload_name_pwd">Določite OSM uporabniško ime in geslo za nalaganje GPX datotek.</string>
+    	<string name="tip_recent_changes">Zadnje spremembe</string>
+	<string name="unit_of_length_descr">Spremeni enote dolžine in hitrosti</string>
+	<string name="unit_of_length">Merske enote</string>
+	<string name="si_mi_foots">Milje/čevlji</string>
+	<string name="si_mi_yard">Milje/jardi</string>
+	<string name="si_km_m">Kilometri/metri</string>
+	<string name="yard">yd</string>
+	<string name="foot">ft</string>
+	<string name="mile_per_hour">mph</string>
+	<string name="mile">mi</string>
+	<string name="amenity_type_administrative">Upravna</string>
+	<string name="amenity_type_barrier">Ovira</string>
+	<string name="amenity_type_education">Izobraževanje</string>
+	<string name="amenity_type_entertainment">Zabava</string>
+	<string name="amenity_type_finance">Finance</string>
+	<string name="amenity_type_healthcare">Zdravje</string>
+	<string name="amenity_type_historic">Zgodovina</string>
+	<string name="amenity_type_landuse">Raba tal</string>
+	<string name="amenity_type_leisure">Prosti čas</string>
+	<string name="amenity_type_military">Vojska</string>
+	<string name="amenity_type_natural">Narava</string>
+	<string name="amenity_type_office">Pisarne</string>
+	<string name="amenity_type_other">Ostalo</string>
+	<string name="amenity_type_shop">Trgovine</string>
+	<string name="amenity_type_sport">Šport</string>
+	<string name="amenity_type_tourism">Turizem</string>
+	<string name="indexing_address">Indeksiranje naslovov …</string>
+	<string name="indexing_map">Indeksiranje karte …</string>
+	<string name="indexing_poi">Indeksiranje POI …</string>
+	<string name="indexing_transport">Indeksiranje javnih prevozov …</string>
+	<string name="input_output_error">I/O napaka</string>
+	<string name="km">km</string>
+	<string name="km_h">km/h</string>
+	<string name="m">m</string>
+	<string name="poi_filter_closest_poi">Najbližja POI</string>
+	<string name="point_on_map">Mesto:\n šir. %1$.5f\n dol. %2$.5f</string>
+	<string name="poi_context_menu_modify">Popravi POI</string>
+	<string name="poi_context_menu_delete">Izbriši POI</string>
+	<string name="import_fav">Uvozi</string>
+	<string name="export_fav">Izvozi</string>
+	<string name="show_current_gpx_title">Prikaži trenutno sled</string>
+	<string name="free_version_message">Brezplačna različica programa OsmAnd je omejena na %1$s prenosov in podpira offline wikipedia člankov.</string>
+	<string name="free_version_title">Brezplačna različica</string>
+	<string name="poi_context_menu_showdescription">Prikaži opis POI</string>
+	<string name="index_name_north_america">Severna Amerika</string>
+	<string name="index_name_us">Severna Amerika - ZDA</string>
+	<string name="index_name_central_america">Srednja Amerika</string>
+	<string name="index_name_south_america">Južna Amerika</string>
+	<string name="index_name_europe">Evropa</string>
+	<string name="index_name_france">Evropa - Francija</string>
+	<string name="index_name_germany">Evropa - Nemčija</string>
+	<string name="index_name_russia">Evropa/Azija - Rusija</string>
+	<string name="index_name_africa">Afrika</string>
+	<string name="index_name_asia">Azija</string>
+	<string name="index_name_oceania">Oceanija</string>
+	<string name="index_name_other">Svetovne in tematske karte</string>
+	<string name="index_name_wiki">Wikipedija svet</string>
+	<string name="index_name_voice">Glasovni paketi (posneti, omejeno št. funkcij)</string>
+	<string name="index_name_tts_voice">Paketi govorov (raje TTS-sintetizirani)</string>
+	<string name="amenity_type_osmwiki">Wikipedija (brez povezave)</string>
+	<string name="amenity_type_user_defined">Razno</string>
+	<string name="fav_export_confirmation">Datoteka z izvoženimi priljubljenimi že obstaja. Ali jo želite zamenjati?</string>
+	<string name="routing_settings">Navigacija</string>
+	<string name="user_name">OSM uporabniško ime</string>
+	<string name="user_password">OSM geslo</string>
+	<string name="user_name_descr">Potrebno za prenos podatkov na openstreetmap.org</string>
+	<string name="user_password_descr">Potrebno za prenos podatkov na openstreetmap.org</string>
+	<string name="routing_settings_descr">Določi možnosti navigacije</string>
+	<string name="general_settings">Splošne nastavitve</string>
+	<string name="general_settings_descr">Določi splošne nastavitve</string>
+	<string name="global_app_settings">Splošne nastavitve aplikacije</string>
+	<string name="preferred_locale">Jezik</string>
+	<string name="preferred_locale_descr">Izberite jezik uporabniškega vmesnika</string>
+	<string name="map_widget_show_destination_arrow">Prikaži smer cilja</string>
+    <string name="enable_plugin_monitoring_services">Omogoči vtičnike za nadzor (beleženje, sledenje v živo) za uporabljanje nadzornih storitev</string>
+    <string name="non_optimal_route_calculation">Izračunaj morda ne-optimalne poti na dolge razdalje</string>
+    <string name="gps_not_available">Prosim da v nastavitvah omogočite GPS</string>
+    <string name="map_widget_monitoring_services">Nadzorne storitve</string>
+	<string name="no_route">Ni poti</string>
+	<string name="delete_target_point">Odstraniti ciljno točko</string>
+	<string name="target_point">Ciljna točka %1$s</string>
+    <string name="intermediate_point">Točka %1$s</string>
+    <string name="target_points">Cilji</string>
+    <string name="poi_filter_emergency">V sili</string>
+    <string name="poi_filter_car_aid">Avtomobilska pomoč</string>
+	<string name="poi_filter_food_shop">Trgovina s hrano</string>
+	<string name="poi_filter_for_tourists">Za turiste</string>
+	<string name="poi_filter_fuel">Gorivo</string>
+	<string name="auto_zoom_map_descr">Samodejna povečava zemljevida glede na hitrost (medtem ko se zemljevid premika v trenutni položaj)</string>
+	<string name="auto_zoom_map">Samodejna povečava zemljevida</string>
+	<string name="snap_to_road_descr">Med navigacijo pripni položaj na ceste</string>
+	<string name="snap_to_road">Pripni na cesto</string>
+	<string name="osmand_short_description_80_chars">OsmAnd je odprtokodna navigacijska aplikacija z offline in online zemljevidi</string>
+	<string name="osmand_plus_short_description_80_chars">OsmAnd je odprtokodna navigacijska aplikacija z offline in online zemljevidi</string>
+	<string name="tip_update_index">Posodobitev map brez povezave</string>
+	<string name="filterpoi_activity">Ustvari POI filter</string>
+	<string name="recalculate_route_to_your_location">Način prevoza:</string>
+	<string name="select_navigation_mode">Izberi način prevoza</string>
+	
+	<string name="day_night_info_description">Vzhod: %1$s\nZahod: %2$s</string>
+	
+	
+	
+	
+	<string name="layer_map_appearance">Nastavitve zaslona</string>
+	<string name="show_lanes">Prikaži vozne pasove</string>
+	<string name="avoid_in_routing_title">Izogibanje …</string>
+	<string name="avoid_ferries">Izogibanje trajektov</string>
+	<string name="avoid_unpaved">Izogibanje neasfaltiranih cest</string>
+	<string name="avoid_in_routing_descr">Izogibanje cestnin, makadama, trajektov</string>
+	<string name="tip_recent_changes_0_8_2_t">"Spremembe v 0.8.2:
+\n\t* Izboljšano usmerjanje
+\n\t* Pripomoček za dinamični zemljevid
+\n\t* Nastavitve zemljevida prestavljene v okno zemljevida
+\n\t* Zaklepanje zaslona s storitvijo sledenja lokacije
+\n\t* Popravljeni jeziki arabščina, Kannada skripte in RTL jeziki "</string>
+	<string name="map_widget_fluorescent">Fluorescentne poti</string>
+	<string name="map_widget_show_ruler">Merilo</string>
+	<string name="map_widget_appearance">Preostali elementi:</string>
+	<string name="map_widget_view_direction">Smer gledanja</string>
+	<string name="map_widget_transparent">Prosojna koža</string>
+	<string name="use_transparent_map_theme">Prosojna tema</string>
+	<string name="bg_service_sleep_mode_off">Omogoči\n spalni način</string>
+	<string name="bg_service_sleep_mode_on">Prekini\n spalni način</string>
+	<string name="gps_wakeup_interval">Interval prebujanja GPS-a: %s</string>
+	<string name="int_continuosly">Neprekinjeno</string>
+	<string name="screen_is_locked">Za odklepanje zaslona pritisnite ikono ključavnice</string>
+	<string name="map_widget_top_text">Ime ceste</string>
+	
+	<string name="map_widget_mini_route">Mini zemljevid poti</string>
+	<string name="select_animate_speedup">Izberite hitrost animacije poti</string>
+    	<string name="osmand_parking_warning">Opozorilo</string>
+	<string name="osmand_parking_pm">PM</string>
+	<string name="osmand_parking_am">AM</string>
+	<string name="gpxup_public">Javno</string>
+	<string name="gpxup_identifiable">Določljivo</string>
+	<string name="gpxup_trackable">Sledljivo</string>
+	<string name="gpxup_private">Zasebno</string>
+	<string name="asap">Čimprej</string>
+	<string name="route_roundabout">Krožišče: uporabite %1$d izvoz</string>
+	<string name="route_kl">Držite se levo</string>
+	<string name="route_kr">Držite se desno</string>
+	<string name="rendering_attr_contourLines_description">Prikaži pod povečavo (potrebuje datoteko SRTM):</string>
+	<string name="rendering_attr_hmRendered_description">Povečaj število podrobnosti karte</string>
+	<string name="rendering_attr_hmRendered_name">Pokaži podrobnejšo karto</string>
+	<string name="navigate_point_format">Oblika:</string>
+	<string name="day_night_info">Informacije dan/noč</string>
+	<string name="map_widget_day_night">Zemljevid dan/noč</string>
+	<string name="map_widget_vector_attributes">Lastnosti upodabljanja:</string>
+	<string name="map_widget_renderer">Slog upodabljanja</string>
+	<string name="native_app_allocated_memory_descr">Skupni izvirni pomnilnik uporabljen od aplikacije %1$s MB (Dalvik %2$s MB, drugo %3$s MB). Sorazmerni pomnilnik %4$s MB (omejitev Androida %5$s MB, Dalvik %6$s MB).</string>
+	<string name="native_app_allocated_memory">Skupni izvirni pomnilnik</string>
+	<string name="update_downlod_list">Osveži seznam</string>
+	<string name="shared_location">Mesto v skupni rabi</string>
+	<string name="osmand_parking_event">Odpeljite avto s parkirišča</string>
+	<string name="osmand_parking_warning_text">Obvestilo, da vzemite avto je bilo že prej dodano v koledar. Ostalo bo tam dokler ga boste ročno izbrisali.</string>    
+	<string name="osmand_parking_time_limit_title">Nastavi časovno omejitev parkiranja</string>
+	<string name="osmand_parking_delete_confirm">Ali želite odstraniti mesto kjer je parkiran avtomobil?</string>
+	<string name="osmand_parking_delete">Brisanje označevalnika parkiranja</string>
+	<string name="osmand_parking_choose_type">Izbira vrste parkiranja</string>
+	<string name="osmand_parking_lim_text">Časovno omejeno</string>
+	<string name="osmand_parking_no_lim_text">Časovno neomejeno</string>
+	<string name="osmand_parking_add_event">Dodaj obvestilo v Koledar</string>
+	<string name="osmand_parking_time_limit">Časovno omejeno parkiranje</string>
+	<string name="osmand_parking_time_no_limit">Časovno neomejeno parkiranje</string>
+	<string name="osmand_parking_position_description">Položaj vašega parkiranega avtomobila: %1$s</string>
+	<string name="osmand_parking_position_description_add">Prevzem avtomobila ob:</string>
+	<string name="osmand_parking_position_name">Točka parkiranja</string>
+	<string name="osmand_parking_plugin_description">Ta vtičnik omogoča shranjevanje mesta vašega parkiranega avtomobila.</string>
+	<string name="osmand_parking_plugin_name">Vtičnik za parkirni položaj</string>
+	<string name="context_menu_item_add_parking_point">Označi kot parkirni položaj</string>
+	<string name="context_menu_item_delete_parking_point">Brisanje oznake parkiranja</string>
+	<string name="local_index_routing_data">Podatki usmerjanja</string>
+	<string name="search_position_favorites">Priljubljene …</string>
+	<string name="level_to_switch_vector_raster_descr">Najnižja povečava za uporabo vektorskih zemljevidov</string>
+	<string name="level_to_switch_vector_raster">Min. povečava za vektorske zemljevide</string>
+	<string name="tip_location_sharing">Deljenje mesta</string>
+	<string name="tip_location_sharing_t">Delite lahko mesto zanimivih krajev na vašem potovanju z družino ali prijatelji z uporabo kontekstnega menija \'Uporaba lokacije\' → \'Delitev lokacije\'.
+		\n\nNato izberite način, za delitev svoje lokacije. Izbire so: e-pošta, SMS (besedilo), ali pa samo kopiranje koordinat mesta v odlagališče.
+	</string>
+	<string name="tip_favorites">Priljubljene lokacije</string>
+	<string name="tip_recent_changes_1_0_0_t">Spremembe v 1.0.0:
+	\n\t* Izboljšano usmerjanje: hitrejše in natančnejše, do 250 km
+	\n\t* Možnost prikaza le cest
+	\n\t* Zemljevid med prekinitvami ne izgubi pridobljenega položaja
+	\n\t* Med navigacijo je omogočeno izvajanje storitev v pripravljenosti
+    </string>
+    <string name="close_changeset">Zapri paket sprememb</string>
+	<string name="zxing_barcode_scanner_not_found">Aplikacija ZXing Barcode Scanner ni nameščena. Naj jo poiščem v trgovini Market?</string>
+	<string name="rendering_attr_roadColors_description">Izberite barvno shemo cest:</string>
+	<string name="rendering_attr_roadColors_name">Barvna shema cest</string>
+    <string name="map_settings">Nastavitve zemljevida</string>
+	<string name="map_settings_descr">Nastavi prikaz zemljevida</string>
+	<string name="extra_settings">Napredne nastavitve</string>
+	<string name="plugins_screen">Upravljalnik vtičnikov</string>
+	<string name="prefs_plugins">Upravljalnik vtičnikov</string>
+	<string name="gpx_visibility_txt">Vidnost</string>
+	<string name="animate_route_off">Prekini animacijo</string>
+	<string name="animate_route">Začni animacijo</string>
+	<string name="poi_filter_by_name">Iskanje po imenu</string>
+	<string name="select_search_position">Iskanje v bližini:</string>
+	<string name="context_menu_item_search">Išči v bližini</string>
+	<string name="local_index_gpx_info_show">\n\nDolg pritisk za možnosti</string>
+	<string name="search_offline_clear_search">Novo iskanje</string>
+	<string name="poi_filter_custom_filter">Filter po meri</string>
+	<string name="gps_status_app_not_found">Aplikacija GPS Status ni nameščena. Ali jo želite poiskati v Google Play trgovini?</string>
+	<string name="show_point_options">Uporabi mesto …</string>
+	<string name="menu_layers">Sloji zemljevida</string>
+	<string name="where_am_i">Kje sem?</string>
+	<string name="hide_poi_filter">Skrij filter</string>
+	<string name="show_poi_filter">Prikaži filter</string>
+	<string name="search_nearby">Išči v bližini</string>
+	<string name="transport_finish_search">Končaj iskanje</string>
+	<string name="show_gps_status">Prikaži stanje sprejemnika GPS</string>
+	<string name="opening_changeset">Odpiranje paketa sprememb …</string>
+	<string name="closing_changeset">Zapiranje paketa sprememb …</string>
+	<string name="show_poi_over_map_description">Prikaži POI na zemljevidu (nazadnje izbran filter)</string>
+	<string name="select_plugin_to_activate">Dotaknite se vtičnika za vklop oz. izklop. (Mogoče bo potreben ponovni zagon OsmAnd.)</string>
+	<string name="prefs_plugins_descr">Vtičniki omogočajo napredne nastavitve in dodatne funkcionalnosti</string>
+	<string name="osmand_development_plugin_description">Prikaži nastavitve za razvoj in razhroščevanje, kot so animirana navigacija ali prikaz hitrosti izrisa.</string>
+	<string name="osmand_extra_settings_description">Prikaz nastavitev za napredne nastavitve izrisa (količina podrobnosti na zemljevidu) in nekatere posebnosti naprav.</string>
+	<string name="osmand_accessibility_description">Prikaz nastavitve za posebne funkcije dostopnosti.</string>
+	<string name="osmand_background_plugin_description">Prikaži nastavitve za sledenje in navigacijo v načinu spanja (ugasnjen ekran in občasna uporaba GPS-a).</string>
+	<string name="close">Zapri</string>
+	<string name="opening_hours">Delovni čas</string>
+	<string name="send_location_way_choose_title">Za deljenje mesta uporabi</string>
+	<string name="context_menu_item_share_location">Deli mesto</string>
+	<string name="play_commands_of_currently_selected_voice">Predvajaj navodila s trenutno izbranim glasom</string>
+	<string name="test_voice_prompts">Preizkusi glasovna navodila</string>    
+	<string name="local_indexes_cat_tts">Podatki govora (TTS)</string>
+	<string name="local_indexes_cat_voice">Posneti glasovi</string>
+	<string name="ttsvoice">Sintetiziran govor (TTS)</string>
+	<string name="choose_audio_stream">Izhod za glasovno vodenje</string>
+	<string name="choose_audio_stream_descr">Izberite kanal, po katerem naj se predvajajo govorjena navodila</string>
+	<string name="voice_is_not_available_msg">Glasovno vodenje ni na voljo. V nastavitvah izberite in prenesite ustrezen glasovni paket.</string>
+	<string name="voice_is_not_available_title">Izbrano ni nobeno glasovno vodenje</string>
+	<string name="voice">Glas</string>
+	<string name="voice_provider_descr">Izberite glasovno vodenje za navigacijo</string>
+	<string name="voice_data_initializing">Začenjanje podatkov govora …</string>
+	<string name="voice_data_not_supported">Nepodprta različica podatkov govora</string>
+	<string name="voice_data_corrupted">Izbrani podatki govora so pokvarjeni</string>
+	<string name="voice_data_unavailable">Izbrani podatki govora niso na voljo</string>
+	<string name="voice_stream_voice_call">Zvok glasovnega klica</string>
+	<string name="voice_provider">Glasovno vodenje</string>
+	<string name="settings_preset_descr">Izberite uporabniški profil s prilagojenimi nastavitvami navigacije in prikaza zemljevida.</string>
+	<string name="tip_navigation">Navigacija</string>
+	<string name="use_osmand_routing_service">OsmAnd navigacija &gt; 20km</string>
+	<string name="service_stop_background_service">Izklopi navigacijsko storitev v ozadju</string>
+	<string name="process_navigation_service">Navigacijska storitev OsmAnd</string>
+	<string name="hello">Navigacijska aplikacija OsmAnd</string>
+	<string name="router_service">Navigacijska storitev</string>
+	<string name="menu_mute_off">Zvok je vključen</string>
+	<string name="menu_mute_on">Zvok je izključen</string>
+	<string name="tts_language_not_supported_title">Jezik ni podprt</string>
+	<string name="tts_language_not_supported">Izbrani jezik ni podprt z vgrajenim Android TTS engine (text-to-speech)-(besedilo v govor). Ali želite v trgovini Market poiskati drug sintetizator govora? Sicer bo uporabljen sistemski TTS jezik.</string>
+	<string name="tts_missing_language_data">Ni nameščenih podatkov za izbrani jezik. Ali jih želite namestiti iz trgovine Market?</string>
+	<string name="system_locale">Sistemski</string>
+	<string name="support_new_features">Podpri nadaljnji razvoj</string>
+	<string name="map_screen_orientation">Usmerjenost zaslona</string>
+	<string name="map_screen_orientation_descr">Pokončno, ležeče ali sistemsko</string>
+	<string name="map_orientation_default">Glede na nastavitve naprave</string>
+	<string name="map_orientation_portrait">Pokončno</string>
+	<string name="map_orientation_landscape">Ležeče</string>
+	<string name="safe_mode">Varen način</string>
+    <string name="safe_mode_description">Zaženite aplikacijo v varnem načinu (uporablja počasnejšo Android kodo).</string>
+    <string name="native_library_not_running">Aplikacija teče v varnem načinu (onemogočite v nastavitvah).</string>
+    <string name="application_dir">Mapa za shranjevanje</string>
+	<string name="specified_dir_doesnt_exist">Ne najdem določene mape.</string>
+	
+	<string name="choose_auto_follow_route">Avtomatsko centriranje zemljevida</string>
+	<string name="choose_auto_follow_route_descr">Čas za avtomatsko centriranje zemljevida s trenutnim položajem</string>
+	<string name="auto_follow_route_never">Nikoli</string>
+	<string name="fast_route_mode">Najhitrejša pot</string>
+	<string name="fast_route_mode_descr">Vključi za najhitrejšo oz. izključi za najkrajšo pot </string>
+	<string name="search_position_undefined">Nedoločeno</string>
+	<string name="search_position_fixed">Določeno</string>
+	<string name="search_position_current_location">Trenutni položaj …</string>
+	<string name="search_position_map_view">Zadnji pogled zemljevida</string>
+	<string name="search_position_address">Naslov …</string>
+	<string name="city_type_city">Mesto</string>
+	<string name="city_type_hamlet">Zaselek</string>
+	<string name="city_type_village">Vas</string>
+	<string name="city_type_town">Kraj</string>
+	<string name="favorite_friends_category">Prijatelji</string>
+	<string name="favourites_edit_dialog_name">Ime</string>
+	<string name="favourites_edit_dialog_category">Skupina</string>
+	<string name="favorite_default_category">Ostalo</string>
+	<string name="favorite_home_category">Doma</string>
+	<string name="favorite_places_category">Kraji</string>
+	<string name="favorite_delete_multiple">Izbrisali boste %1$d lokacijo in %2$d skupino. Ali ste prepričani?</string>
+	<string name="favourites_delete_multiple_succesful">Priljubljene lokacije so uspešno izbrisane.</string>
+	<string name="show_poi_on_map">Prikaži na zemljevidu</string>
+	<string name="favorite">Priljubljena</string>
+	<string name="fav_points_edited">Priljubljena lokacija je bila urejena</string>
+	<string name="fav_points_not_exist">Ni priljubljenih lokacij</string>
+	<string name="incomplete_locale">nedokončano</string>
+	<string name="download_roads_only_item">Le ceste</string>
+    <string name="download_regular_maps">Običajni zemljevidi</string>
+    <string name="download_link_and_local_description">Kliknite tu za prenos oz. posodobitev datotek zemljevidov.\nKliknite na katerokoli element za prikaz podrobnosti, pritisnite in držite za izklop ali brisanje. Količina prostora na napravi (%1$s prosto):</string>
+	
+	<string name="local_index_mi_restore">Vklopi</string>
+	<string name="local_index_mi_backup">Izklopi</string>
+	<string name="local_index_mi_delete">Briši</string>
+	<string name="local_index_descr_title">Upravljanje datotek zemljevidov</string>
+	<string name="local_index_items_backuped">%1$d od %2$d elementov uspešno izklopljen.</string>
+	<string name="local_index_items_deleted">%1$d od %2$d elementov uspešno brisan.</string>
+	<string name="local_index_items_restored">%1$d od %2$d elementov uspešno vklopljen.</string>
+	<string name="local_index_no_items_to_do">Ni elementov za %1$s</string>
+	<string name="local_index_action_do">Nameravate %1$s %2$s elementov. Ali nadaljujem?</string>
+	<string name="local_index_mi_reload">Ponovno naloži iz SD kartice</string>
+	<string name="local_index_download">Prenos</string>
+	<string name="local_index_map_data">Podatki zemljevida</string>
+	<string name="local_indexes_cat_backup">Izklopljen</string>
+	<string name="local_index_transport_data">Podatki javnih prevozov</string>
+	<string name="local_index_address_data">Podatki naslovov</string>
+	<string name="local_index_poi_data">Podatki POI</string>
+	
+	<string name="local_indexes_cat_gpx">GPX podatki</string>
+	<string name="local_indexes_cat_poi">Podatki POI</string>
+	
+	
+	
+	<string name="phone">Telefon</string>
+	<string name="get_directions">Navigacija</string>
+	<string name="follow">Začni navigacijo</string>
+	<string name="only_show">Prikaži pot</string>
+	<string name="update_existing">Zamenjaj</string>
+	<string name="send_location">Pošlji mesto</string>
+	<string name="amenity_type_transportation">Prevoz</string>
+	<string name="old_map_index_is_not_supported">Podatki zemljevida v stari obliki \'\'{0}\'\' niso podprti</string>
+	<string name="no_buildings_found">Ni bilo najdenih zgradb.</string>
+    <string name="amenity_type_sustenance">Prehrana</string>
+	<string name="amenity_type_man_made">Zgradbe</string>
+	<string name="send_location_sms_pattern">Mesto: %1$s\n%2$s</string>
+	<string name="tip_initial_t">"OsmAnd je navigacijska aplikacija s številnimi funkcijami.
+\n\nNekaj osnovnih uvodov, uporabne nasvete in napredno pomoč dobite v povezavi z \'Meni\' → \'Pomoč\' na zaslonu zemljevida. "</string>
+	<string name="next_button">Naprej</string>
+	<string name="previous_button">Nazaj</string>
+	<string name="tip_initial">Pomoč</string>
+	<string name="tip_search">Iskanje</string>
+	<string name="tip_rotation_switching">Usmerjenost zemljevida</string>
+	<string name="rotate_map_to_bearing">Usmerjenost zemljevida</string>
+	<string name="tip_rotation_switching_t_v2">Z večkratnim klikom na sliki kompasa lahko določite, kako se obrača zemljevid na zaslonu.
+	\n\nMožnosti so:
+	\n\t\* \'Brez obračanja (sever je gor)\': Zemljevid ne bo obračan. Sever bo vedno proti sthu zaslona.
+	\n\t\* \'V smeri gibanja\': Zemljevid bo stalno usmerjen z smerjo premikanja.
+	\n\t\* \'Po kompasu\': Zemljevid bo stalno usmerjen po kompasu naprave torej poravnan z okolico.
+	</string>
+	<string name="tip_update_index_t">"Posodabljanje zemljevidov je pomembno za uporabljanje map, interesnih točk, iskanje naslovov in navigacijo brez povezave. OsmAnd nudi upravitelja datotek zemljevidov s katerim lahko prenesete take zemljevide in preverite razpoložljive posodobitve.
+\n\nZa prenos podatkov pojdite na \'Nastavitve\' → \'Upravljanje datotek zemljevidov\' → \'Prenos\'.
+\n\nPotem ko se seznam držav prenese iz interneta, kliknite na vnos za prenos ali posodobitev datoteke. Upoštevajte izbiro tipa datoteke pri vrhu zaslona, kjer izberete vrsto prenosa, ki ga želite (redni zemljevidi, prosojnica senčenje hribov, itd.).
+\n\nLahko filtrirate seznam držav z vnosom nekaj črk, ali pa lahko izberete možnost \'Nastavitve\' → \'Filter prenosov\' za ogled posodobitev le za podatke, ki so že na napravi.
+\n\n\t* \'Zelena\' označuje, da so datoteke na napravi enake kot na strežniku
+\n\t* \'Modra\' da so na strežniku novejši podatki
+\n\t* Ležeča pisava pomeni da so podatki na napravi de-aktivirani "</string>
+	<string name="download_files_question">Prenesi {0} datotek(o) ({1} MB)?</string>
+	<string name="download_files">Prenesi</string>
+	
+	<string name="downloading">Prenašanje …</string>
+	<string name="installing_new_resources">Odpakiranje novih podatkov …</string>
+	<string name="tip_navigation_t">"Da bi dobili navodila za kraj, bodisi neposredno dolgo kliknite nanj na zemljevidu (potem kliknite opis in izberite \'Navodila za\'), ali pa izberite \'Navigacija\' za vsak vnos v seznamu rezultatov iskanja ali seznama priljubljenih.
+\n\nCilj je na zemljevidu označen s ciljno zastavico in OsmAnd prikazuje razdaljo in smer do njega (oranžni trikotnik).
+\n\nLahko izberete \'Začni navigacijo\', kar pomeni, da vas OsmAnd vodi, vam da glasovne ukaze (če so ti vklopljeni), itd. Ali pa lahko izberete \'Prikaži pot\', ki vam samo prikaže pot brez vodenja in popravljanja medtem ko se premikate.
+\n\nČe želite pokazati pot do cilja iz katerekoli druge točke, ki ni vaš trenutni položaj, izberite jo na zemljevidu in pritisnite \'Navodila od\'.
+\n\nČe uporabljate \'Navodila od\', skupaj z \'Začni navigacijo\', bo OsmAnd preklopil na vaš sedanji položaj takoj, ko bo ugotovljen (tako da se ta lahko uporablja za skok-začetek poti, preden je ugotovljen položaj), medtem ko \'Navodila od\' v kombinaciji z \'Prikaži pot\' vam samo pokaže pot iz katere koli poljubne točke, ki ste jo izbrali, brez poznejše posodobitve. "</string>
+	<string name="rotate_map_compass_opt">Rotacija po kompasu</string>
+	<string name="rotate_map_bearing_opt">Rotacija po smeri gibanja</string>
+	<string name="rotate_map_none_opt">Brez rotacije (sever je gor)</string>
+	<string name="search_villages_and_postcodes">Išči vasi/poštno številko</string>
+	<string name="rendering_attr_showRoadMaps_description">Izberite kdaj naj bodo prikazani zemljevidi le s cestami:</string>
+	<string name="rendering_attr_showRoadMaps_name">Zemljevidi le s cestami</string>
+    <string name="download_roads_only_maps">Zemljevidi le s cestami</string>
+    <string name="background_service_is_enabled_question">Storitev v ozadju se še vedno izvaja. Ali želite prekiniti tudi njo?</string>
+    <string name="select_index_file_to_download">Ničesar ni bilo mogoče najti. Če svojega področja ne morete najti, ga lahko ustvarite sami (oglejte si http://osmand.net).</string>
+	<string name="local_indexes_cat_map">Krajevni zemljevidi (vektorski)</string>
+	<string name="index_settings_descr">Prenos in upravljanje datotek zemljevidov shranjenih na vaši napravi</string>
+	<string name="map_online_plugin_is_not_installed">Omogočite vstavek spletnih zemljevidov za izbiro različnih virov zemljevidov</string>
+	<string name="map_online_data_descr">Uporabi spletne zemljevide (prejem in predpomnjenje ploščic na kartici SD)</string>
+	<string name="online_map_settings">Spletni zemljevidi</string>
+	<string name="online_map_settings_descr">Nastavitev virov spletnih zemljevidov ali predpomnjenih ploščic</string>
+	<string name="osmand_rastermaps_plugin_description">Pokaži nastaviteve za nastavitev različnih spletnih ali predpomnjenih ploščic zemljevidov kot osnovni zemljevid ali zgornje / spodnje plasti. Te zemljevide lahko pripravite, tudi ko niste povezani, in jih kopirate v mapo OsmAnd.</string>
+	<string name="osm_editing_plugin_description">Pokaži nastavitve, ki so zahtevane za povratne informacije OSM kot so zbiranje/spreminjanje predmetov POI OSM, odpiranje/komentiranje hroščev OSM in prispevanje posnetih sledi GPX (zahteva poverila OSM).</string>
+	<string name="vector_maps_may_display_faster_on_some_devices">Vektorski zemljevidi se bodo verjetno prikazali hitreje. Morda na nekaterih napravah ne bodo dobro delovali.</string>
+	<string name="debugging_and_development">Razvoj OsmAnd</string>
+	<string name="native_rendering">Nativno izrisovanje</string>
+	<string name="switch_to_raster_map_to_see">Za to mesto krajevni zemljevidi niso prisotni. Prejmete jih lahko v nastavitvah (Upravljanje datotek zemljevidov) ali preklopite na spletne zemljevide (za to morate omogočiti vtičnik za spletne zemljevide).</string>
+	<string name="gpx_tags_txt">Oznake</string>
+	<string name="gpx_description_txt">Opis</string>
+	<string name="default_buttons_support">Podpora</string>
+	<string name="show_ruler_level">Prikaži ravnilo</string>	
+	<string name="info_button">Info</string>
+	<string name="back_to_location">Nazaj na mesto</string>
+	<string name="help">Pomoč</string>
+	<string name="show_details">Pokaži podrobnosti</string>
+	<string name="accessibility_extensions_descr">Razširitve dostopnosti za stare različice Android</string>
+	<string name="accessibility_extensions">Razširitve dostopnosti</string>
+	<string name="accessibility_mode">Način dostopnosti</string>
+	<string name="accessibility_mode_descr">Vklopi zmožnosti dostopnosti</string>
+	<string name="accessibility_on">Vklopljeno</string>
+	<string name="accessibility_off">Izklopljeno</string>
+	<string name="accessibility_default">Glede na splošne sistemske nastavitve</string>
+	<string name="backToMenu">Nazaj v meni</string>
+	<string name="auto_announce_on">Začni s samodejnimi najavami</string>
+	<string name="auto_announce_off">Končaj s samodejnimi najavami</string>
+	<string name="tip_osm_improve">Izboljševanje OSM podatkov</string>
+	<string name="osm_settings">OSM urejanje</string>
+	<string name="website">Spletna stran</string>
+	<string name="osb_add_dialog_title">Vnos OSM napake</string>
+	<string name="osb_comment_dialog_message">Sporočilo</string>
+	<string name="osb_comment_dialog_author">Ime avtorja</string>
+	<string name="osb_add_dialog_success">Napaka uspešno prijavljena</string>
+	<string name="osb_add_dialog_error">Prišlo je do napake: napaka ni bila prijavljena</string>
+	<string name="osb_comment_dialog_add_button">Dodaj komentar</string>
+	<string name="osb_comment_menu_item">Dodaj opis napake</string>
+	<string name="osb_comment_dialog_title">Dodajanje opisa napake</string>
+	<string name="osb_comment_dialog_success">Komentar je bil uspešno dodan</string>
+	<string name="osb_comment_dialog_error">Prišlo je do napake: komentar ni bil dodan</string>
+	<string name="osb_close_menu_item">Zapri napako</string>
+	<string name="osb_close_dialog_title">Zapiranje napake</string>
+	<string name="osb_close_dialog_close_button">Zapri napako</string>
+	<string name="osb_close_dialog_success">Napaka je bila uspešno zaprta</string>
+	<string name="osb_close_dialog_error">Prišlo je do napake: napaka ni bila zaprta</string>
+	<string name="tip_osm_improve_t">OsmAnd uporablja zemljevide, ki temeljijo na Openstreetmap.org (OSM) podatkih in se lahko uporabi tudi za izboljšanje kakovosti podatkov OSM. Preprosto lahko ustvarite in nalagate nove POI ali dodate OSM bug z le nekaj kliki!
+		\n\nZa to morate najprej omogočiti vtičnik \'OSM urejanje\' v \'Nastavitve\' → \'Vtičniki\' in nato morate vnesti svoje podatke za prijavo v OSM v \'Nastavitve\' → \'OSM urejanje\'.
+		\n\nČe želite dodati nov POI uporabite \'Ustvari POI\' v kontekstnem meniju zemljevida. Nadaljujte z vnosom informacij o POI v pogovornem oknu \'Ustvari POI\' in na koncu pošljite podatke.
+		\n\nNapake na zemljevidu je mogoče takoj sporočiti prek storitve OSM bug in OSM skupnost bo lažje in hitreje odpravila to napako. Uporabite možnost \'Prijavi napako OSM\' v kontekstnem meniju zemljevida. Nato vnesite podroben opis težave in na koncu objavite napako z gumbom \'Dodaj\'.
+		\n\nOsmAnd podpira predpomnjenje vpisov brez povezave (glej ustrezno nastavitev), vendar internetna povezava je seveda potrebna, da lahko naložite svoje OSM točke in OSM hrošče.
+	</string>
+	<string name="tip_map_context_menu">Meni \'Uporabi lokacijo\'</string>
+	<string name="tip_map_context_menu_t">\'Uporabi lokacijo\' kontekstni meni vsebuje vse ukaze, ki se nanašajo na točko (lokacijo).
+		\n\nTa je na voljo z dolgim pritiskom na katerokoli točko na zemljevidu (nato pritisnite na oznako) ali s pritiskom na gumb kroglico, ali z izbiro \'Meni\' → \'Uporabi lokacijo\' (zadnja dva načina uporabijo center zemljevida kot referenčno točko).
+		\n\nOznako lahko spet skrijete če dolgo kliknete nanjo.
+	</string>
+	<string name="tip_search_t">Mesta lahko iščete neposredno na zemljevidu preko \'Uporabi lokacijo\' → \'Iskanje v bližini\', ali s priklicem okna za iskanje preko \'Meni\' → \'Iskanje\'.
+		\n\nOkno za iskanje ima predloge za iskanje
+		\n\t* po naslovu
+		\n\t* preko koordinat
+		\n\t* kot POI (po vrsti ali po imenu)
+		\n\t* preko zgodovine iskanja
+		\n\t* ali prek vaših prednastavljenih priljubljenih.
+		\n\nKontekstni meni ali akcijska vrstica na vseh zadetkih ponujata možnosti, kot so \'Navigacija\' ali \'Prikaži na zemljevidu\', itd.
+	</string>
+	
+    
+    <string name="route_descr_lat_lon">Dol %1$.3f šir %2$.3f</string>
+    <string name="route_descr_current_location">Trenutno mesto</string>
+    <string name="first_time_msg">Hvala, ker uporabljate OsmAnd. Za uporabo veliko zmožnosti tega programa, boste potrebovali krajevne podatke, ki jih lahko prejmete preko \'Nastavitve\' → \'Upravljanje datotek zemljevidov\'. Potem boste lahko videli zemljevide, našli naslove, našli točke POI in našli javni prevoz.</string>    
+	<string name="local_indexes_cat_tile">Spletni zemljevidi in ploščice zemljevidov</string>
+	<string name="map_online_data">Spletni zemljevidi in ploščice zemljevidov</string>
+	<string name="default_buttons_reset">Ponastavi</string>
+	<string name="scroll_map_by_gestures_descr">Drsanje po zemljevidi s kretnjami na zaslonu na dotik</string>
+	<string name="scroll_map_by_gestures">Naravno drsenje zemljevida</string>
+	<string name="zoom_by_trackball_descr">Spremeni povečavo zemljevida z vodoravnimi premiki sledilne žogice</string>
+	<string name="zoom_by_trackball">Uporabite sledilno kroglico za nadzor povečave</string>
+	<string name="use_short_object_names_descr">Uporabi kratka imena predmetov v načinu raziskovanja dotika</string>
+	<string name="use_short_object_names">Uporabi imena predmetov</string>
+	<string name="accessibility_preferences_descr">Z dostopnostjo povezane možnosti</string>
+	<string name="accessibility_preferences">Dostopnost</string>
+	<string name="rendering_out_of_memory">Ni dovolj pomnilnika za prikaz izbranega področja</string>
+	<string name="use_fluorescent_overlays">Fluorescentno prekrivanje</string>
+	<string name="use_fluorescent_overlays_descr">Uporabi fluorescentne barve za prikaz poti</string>
+	<string name="offline_edition">Krajevno urejanje</string>
+	<string name="offline_edition_descr">Vedno uporabi krajevno urejanje</string>
+	<string name="update_poi_does_not_change_indexes">Spremembe POI v programu ne vplivajo na prejete datoteke zemljevidov, spremembe so namesto tega shranjene v krajevno datoteko.</string>
+	<string name="local_openstreetmap_uploading">Pošiljanje …</string>
+	<string name="local_openstreetmap_were_uploaded">{0} POI/hroščev je bilo poslanih</string>
+	<string name="local_openstreetmap_uploadall">Pošlji vse</string>
+	<string name="local_openstreetmap_show">Pokaži na zemljevidu</string>
+	<string name="local_openstreetmap_upload">Pošlji spremembo na OSM</string>
+	<string name="local_openstreetmap_delete">Izbriši spremembo</string>
+	<string name="local_openstreetmap_descr_title">Asinhrono urejanje OSM:</string>
+	<string name="local_openstreetmap_settings">Krajevno shranjene točke POI/hrošči OSM</string>
+	<string name="local_openstreetmap_settings_descr">Pokaži in upravljaj točke POI/hrošče OSM, ki so zabeleženi v krajevni podatkovni zbirki</string>
+	
+	
+	<string name="live_monitoring_interval_descr">Določi interval sledenja v živo</string>
+	<string name="live_monitoring_interval">Interval sledenja v živo</string>
+	<string name="live_monitoring_url_descr">Navedite spletne naslove z naslednjo sintakso za parametre: geogr. šir.={0}, geogr. dolž.={1}, čas={2}, hdop={3}, višina={4}, hitrost={5}, usmeritev={6}</string>
+	<string name="live_monitoring_url">Spletni naslov za sledenje v živo</string>
+	<string name="gpx_monitoring_disabled_warn">Omogočite nastavitev \'Beleži sled v datoteko GPX\'.</string>
+	<string name="profile_settings">Za profil določene nastavitve</string>
+	<string name="settings_preset">Uporabniški profil</string>
+	<string name="global_settings">Splošne nastavitve</string>
+	<string name="index_settings">Upravljanje datotek zemljevidov</string>
+	<string name="osmand_service">Način spanja</string>
+	<string name="osmand_service_descr">Uporabi za izvajanje OsmAnd, ko je zaslon izklopljen</string>
+	<string name="binary_map_download_success">Prejem je uspešen.
+		\n\t\n\tZa uporabo omogočite \'Meni\' → \'Sloji zemljevida\' → \'Vir zemljevidov …\' → Nepovezani vektorski zemljevidi\'.
+	</string>
+	<string name="tip_day_night_mode">Način dneva/noči</string>
+	<string name="daynight_mode_auto">Sončni vzhod / zahod</string>
+	<string name="daynight_mode_day">Dnevni</string>
+	<string name="daynight_mode_night">Nočni</string>
+	<string name="daynight_mode_sensor">Svetlobno tipalo</string>
+	<string name="daynight">Dnevni / nočni način</string>
+	<string name="daynight_descr">Izberi način preklopa za Dnevni / Nočni način</string>
+	<string name="tip_day_night_mode_t_v2">Izgled zemljevida se lahko za vektorske karte menja med dnevnim (svetlejšim) in nočnim (temnejšim) videzom. Nočne barve so varnejše za nočno vožnjo.
+		\n\nPreklop med dnevnim in nočnim načinom lahko nastavljate v \'Meni\' → \'Nastavitev zaslona …\' → \'zemljevid dan/noč\'.
+		\n\nMožnosti so:
+		\n\t\* \'Sončni vzhod/zahod\': avtomatski način glede na položaj sonca (privzeto)
+		\n\t\* \'Dnevni\': vedno se uporablja dnevni način
+		\n\t\* \'Nočni\': vedno se uporablja nočni način
+		\n\t\* \'Svetlobni senzor\': izgled zemljevida nadzoruje svetlobno tipalo naprave (če je na voljo)
+	</string>	
+	<string name="download_files_not_enough_space">Ni dovolj razpoložljivega prostora za prejem %1$s MB(prosto: %2$s).</string>
+	<string name="download_files_question_space">Razpoložljiv prostor je sedaj {2}MB! Ali želite prejeti {0} datotek(o) ({1}MB)?</string>
+	
+	 
+	<string name="native_library_not_supported">Nativna knjižnica ni podprta na tej napravi.</string>
+	<string name="init_native_library">Inizializiranje izvirne knjižnice …</string>
+	<string name="auto_follow_route_navigation">Samodejno centriraj le med navigacijo</string>
+	<string name="auto_follow_route_navigation_descr">Samodejno centriraj zemljevid le med navigiranjem.</string>
+	<string name="auto_follow_location_enabled">Samodejno centriranje pogleda zemljevida, ki je v uporabi.</string>
+	<string name="pref_vector_rendering">Možnosti vektorskega izrisovanja</string>
+	<string name="pref_overlay">Zgornja plast/spodnja plast</string>
+	<string name="pref_raster_map">Nastavitve vira zemljevidov</string>
+	<string name="pref_vector_map">Nastavitve vektorskega zemljevida</string>
+	<string name="delete_confirmation_msg">Izbris %1$s?</string>
+	<string name="city_type_suburb">Predmestje</string>
+	
+	<string name="file_can_not_be_renamed">Datoteke ni mogoče preimenovati.</string>
+	<string name="file_with_name_already_exists">Datoteka s tem imenom že obstaja.</string>
+	<string name="gpx_navigation">Pot GPX</string>
+	<string name="poi_query_by_name_matches_categories">Več najdenih kategorij POI se ujema s poizvedbo:</string>
+	<string name="data_to_search_poi_not_available">Krajevni podatki za iskanje POI niso prisotni.</string>
+	<string name="old_poi_file_should_be_deleted">Podatkovna datoteka POI \'%1$s\' je odveč in jo je mogoče izbrisati.</string>
+	<string name="update_poi_file_not_found">Krajevne datoteke za vzdrževanje sprememb POI ni bilo mogoče najti in ustvariti.</string>
+	<string name="button_upgrade_osmandplus">Nadgradi OsmAnd+</string>
+	<string name="map_version_changed_info">Strežnik vsebuje datoteke zemljevida, ki niso združljive z vašo različico programa. Za njihov prejem in uporabo nadgradite program na novo različico.</string>
+	<string name="local_index_mi_rename">Preimenuj</string>
+	<string name="show_gpx_route">Pokaži na zemljevidu</string>
+	<string name="poi_filter_nominatim">Spletni Nominatim</string>
+	<string name="search_position_current_location_search">Iskanje položaja …</string>
+	<string name="search_position_current_location_found">Položaj (najden)</string>
+	<string name="save_route_dialog_title">Shrani pot kot sled GPX</string>
+	<string name="route_successfully_saved_at">Pot je bila uspešno shranjena kot \'%1$s\'.</string>
+	<string name="filename_input">Ime datoteke: </string>
+	<string name="file_with_name_already_exist">Datoteka z enakim imenom že obstaja.</string>
+	<string name="default_buttons_save">Shrani</string>
+	<string name="menu_save_directions">Shrani navodila</string>
+	<string name="local_index_upload_gpx_description">Pošlji datoteke GPX za skupnost OSM. Uporabljene bodo za izboljšavo zemljevidov.</string>
+	<string name="local_index_items_uploaded">%1$d od %2$d predmet(ov) je bilo uspešno poslanih.</string>
+	<string name="local_index_mi_upload_gpx">Pošlji na OSM</string>
+	<string name="show_more_map_detail">Pokaži več podrobnosti zemljevida</string>
+	<string name="show_more_map_detail_descr">Pokaži nekaj podrobnosti vektorskih zemljevidov (ceste, itd.) že pri manjših povečavah</string>
+	<string name="vector_map_not_needed">Ne, hvala</string>
+	<string name="basemap_missing">Osnovni zemljevid sveta (ki pokriva cel svet pri majhnih povečavah) manjka. Razmislite o prejemu World_basemap_x.obf za celotno okolje.</string>
+	<string name="vector_data_missing">Nepovezani podatki manjkajo na SD kartici. Razmislite o njihovem prejemu, da boste lahko zemljevide uporabili tudi, ko ste nepovezani.</string>
+	<string name="local_index_installed">Izdaja</string>
+	<string name="map_text_size_descr">Izberite velikost besedila za imena na zemljevidu</string>
+	<string name="map_text_size">Velikost pisave zemljevida</string>
+	<string name="trace_rendering">Podatki razhroščevanja izrisovanja</string>
+	<string name="trace_rendering_descr">Prikaži zmogljivost izrisovanja</string>
+	<string name="voice_not_use">Ne uporabi</string>
+	<string name="voice_not_specified">Brez</string>
+	<string name="internet_connection_required_for_online_route">Izbrana je storitev spletne navigacije, vendar internetna povezava ni na voljo.</string>
+	<string name="tts_missing_language_data_title">Podatki manjkajo</string>
+	<string name="gpx_option_reverse_route">Obratna smer GPX</string>
+	<string name="gpx_option_destination_point">Uporabi trenuten cilj</string>
+	<string name="gpx_option_from_start_point">Podaj celotno sled</string>
+	<string name="switch_to_vector_map_to_see">Za to mesto so na voljo vektorski zemljevidi za uporabo brez povezave.\n\t\n\tZa njihovo uporabi omogočite \'Meni\' → \'Sloji zemljevida\' → \'Vir zemljevida …\' → \'Vektorski zemljevidi za uporabo brez povezave\'.</string>
+	<string name="voice_stream_notification">Obvestilni zvok</string>
+	<string name="voice_stream_music">Zvok predstavnosti/glasbe</string>
+	<string name="warning_tile_layer_not_downloadable">Program ne more prejeti plasti zemljevida %1$s, poskusite jo ponovno namestiti.</string>
+	<string name="overlay_transparency_descr">Spremeni prozornost prekrivnih plasti</string>
+	<string name="overlay_transparency">Prozornost prekrivnih plasti</string>
+	<string name="map_transparency_descr">Spremeni prozornost osnovnega zemljevida</string>
+	<string name="map_transparency">Prozornost osnovnega zemljevida</string>
+	<string name="layer_underlay">Zemljevid v podlogi …</string>
+	<string name="map_underlay">Spodaj ležeči zemljevid</string>
+	<string name="map_underlay_descr">Izberi spodaj ležeči zemljevid</string>
+	<string name="layer_overlay">Prekrivni zemljevid …</string>
+	<string name="default_none">Brez</string>
+	<string name="map_overlay">Prekrivni zemljevid</string>
+	<string name="map_overlay_descr">Izberi prekrivni zemljevid</string>
+	<string name="tile_source_already_installed">Zemljevid je že nameščen, nastavitve bodo posodobljene</string>
+	<string name="select_tile_source_to_install">Izberite zemljevide za namestitev ali posodobitev</string>
+	<string name="internet_not_available">Internetna povezava, ki je zahtevana za opravilo, ni na voljo</string>
+	<string name="install_more">Namesti več …</string>
+	<string name="create_poi_link_to_osm_doc">Določitev <u>spletnega OSM</u> s slikami</string>
+	<string name="error_doing_search">Med nepovezanim iskanjem je prišlo do napake</string>
+	<string name="search_offline_geo_error">Ni mogoče razčleniti geo namena \'%s\'</string>
+	<string name="search_osm_offline">Iskanje geografske lokacije</string>
+	<string name="tip_map_switch">Izbira vira zemljevidov</string>
+	<string name="tip_app_mode">Uporabi profil</string>
+	<string name="tip_app_mode_t_v2">OsmAnd podpira različne (prilagodljive) profile programa za različne primere uporabe.
+		\n\nProfile lahko spremenite z gumbom profil v spodnjem levem kotu zaslona zemljevida (ikona avtomobila, kolesa ali pešca) ali med ustvarjanjem poti (\'način prevoza\').
+	</string>
+	<string name="send_location_email_pattern">Za ogled mesta sledite povezavi spletnega brskalnika %1$s ali povezavi namena android %2$s</string>
+	<string name="add_waypoint_dialog_added">GPX točka \'\'{0}\'\' je bila uspešno dodana</string>
+	<string name="add_waypoint_dialog_title">Dodaj navigacijsko točko posneti sledi GPX</string>
+	<string name="context_menu_item_add_waypoint">Dodaj navigacijsko točko sledi GPX</string>
+	<string name="tip_favorites_t">"Pogosto uporabljene točke si lahko shranite kot Priljubljene na naslednji način:
+\n\nPojdite v \'Uporabi lokacijo\' kontekstni meni katerikoli točke zemljevida in izberite \'Dodaj med priljubljene\' in nato vnesite ime.
+\n\nPo shranjevanju priljubljene točke je ta dostopna preko \'Meni\' → \'Moji kraji\'. Dolg pritisk na priljubljeni točki v meniju \'Priljubljene\' vam nudi možnost, da jo določite kot cilj, uredite ali izbrišete.
+\n\nZa prikaz vseh priljubljenih točk direktno na zemljevidu, omogočite sloj \'Priljubljene\' v \'Meni\' → \'Sloji zemljevida\'. "</string>
+	<string name="transport">Prevoz</string>
+	<string name="additional_settings">Dodatne nastavitve</string>
+	<string name="settings">Nastavitve</string>
+	<string name="save_current_track">Shrani trenutno sled GPX</string>
+	<string name="save_current_track_descr">Shrani trenutno GPX pot na SD kartico</string>
+	<string name="save_track_interval">Interval beleženja med navigacijo</string>
+	<string name="save_track_interval_descr">Izberite interval beleženja za shranjevanje sledi med navigacijo</string>
+	<string name="save_track_to_gpx">Beleži sled v datoteko GPX med navigacijo</string>
+	<string name="save_track_to_gpx_descrp">Sledi se med navigacijo shranjujejo v mapo \'tracks\'</string>
+	<string name="mark_point">Cilj</string>
+	<string name="show_osm_bugs_descr">Pokaži OpenStreetBugs na zemljevidu</string>
+	<string name="show_osm_bugs">Prikaži OpenStreetBugs</string>
+	<string name="int_seconds">sekund</string>
+	<string name="int_min">min.</string>
+	<string name="gps_provider">GPS</string>
+	<string name="previous_run_crashed">Pri prejšnji uporabi programa OsmAnd je prišlo do sesutja. Datoteka z dnevnikom se nahaja v {0}. Prosim, prijavite težavo in priložite to datoteko.</string>
+	<string name="amenity_type_emergency">Nujna medicinska pomoč</string>
+	<string name="amenity_type_geocache">Zaklad Geocache</string>
+	<string name="poi_filter_namefinder">Spletni iskalnik imenov</string>
+	<string name="reading_cached_tiles">Branje predpomnjenih ploščic …</string>
+	<string name="version_index_is_big_for_memory">Kazalo \"{0}\" je bilo preveliko za pomnilnik</string>
+	<string name="version_index_is_not_supported">Različica kazala \"{0}\" ni podprta</string>
+	<string name="use_osmand_routing_service_descr">Uporaba nepovezane navigacije OsmAnd je smiselna le za poti &gt; 20 km (preizkusno)</string>
+	<string name="osmand_routing_experimental">Nepovezana navigacija OsmAnd je preizkusna zmožnost in ne deluje z razdaljami več kot 20 km.\n\nStoritev navigacije je začasno preklopljena na spletni CloudMade.</string>
+	<string name="osmand_net_previously_installed">Nameščena je prejšnja različica OsmAnd. Vsi nepovezani podatki so podprti v novi različici, vendar morate v starem programu izvoziti vse priljubljene točke in jih uvoziti v nov program.</string>
+	<string name="build_installed">Gradnja {0} je bila uspešno nameščena ({1}).</string>
+	<string name="downloading_build">Prejemanje graditve …</string>
+	<string name="install_selected_build">Ali želite namestiti OsmAnd - {0} z {1}{2}MB?</string>
+	<string name="loading_builds_failed">Pridobivanje seznama gradenj OsmAnd je spodletelo</string>
+	<string name="loading_builds">Nalaganje OsmAnd graditev …</string>
+	<string name="select_build_to_install">Izberite eno od gradenj OsmAnd za namestitev</string>
+	<string name="contribution_activity">Namesti različico</string>
+	<string name="items_were_selected">{0} predmet(ov) je izbran(ih)</string>
+	<string name="filter_existing_indexes">Filtriraj prejeto</string>
+	<string name="deselect_all">Odstrani izbiro vsega</string>
+	<string name="select_all">Izberi vse</string>
+	<string name="reload">Osveži</string>
+	<string name="tiles_to_download_estimated_size">Pri povečavi {0} prejmi {1} ploščic ({2} MB)</string>
+	<string name="context_menu_item_download_map">Prenos zemljevida</string>
+	<string name="select_max_zoom_preload_area">Izberite največjo povečavo za predhodno nalaganje</string>
+	<string name="maps_could_not_be_downloaded">Tega zemljevida ni bilo mogoče prejeti</string>
+	<string name="continuous_rendering">Stalno izrisovanje</string>
+	<string name="continuous_rendering_descr">Prikaži stalno izrisovanje namesto slike-na-enkrat</string>
+	<string name="rendering_exception">Med izrisovanjem izbranega področja je prišlo do napake</string>
+	<string name="renderer_load_sucess">Izrisovalnik je bil uspešno naložen</string>
+	<string name="renderer_load_exception">Prišlo je do izjeme: izrisovalnik ni bil naložen</string>
+	<string name="renderers">Vektorski izrisovalnik</string>
+	<string name="renderers_descr">Izberite videz izrisovalnika</string>
+	<string name="poi_context_menu_website">Pokaži spletišče POI</string>
+	<string name="poi_context_menu_call">Pokaži telefon POI</string>
+	<string name="download_type_to_filter">tipkajte za filtriranje</string>
+	<string name="use_high_res_maps">Zaslon z visoko ločljivostjo</string>
+	<string name="use_high_res_maps_descr">Ne raztegni (in zamegli) ploščic zemljevida na zaslonih z visoko gostoto</string>
+	<string name="context_menu_item_search_transport">Iskanje prevoza</string>
+	<string name="transport_searching_transport">Rezultati prevoza (brez cilja):</string>
+	<string name="transport_searching_route">Rezultati prevoza ({0} do cilja):</string>
+	<string name="transport_search_none">brez</string>
+	<string name="transport_search_again">Ponastavi iskanje prevoza</string>
+	<string name="map_index">Zemljevid</string>
+	<string name="no_vector_map_loaded">Vektorski zemljevidi niso bili naloženi</string>
+	<string name="map_route_by_gpx">Navigiraj z GPX</string>
+	<string name="gpx_files_not_found">Datotek GPX ni bilo mogoče najti v mapi /tracks</string>
+	<string name="layer_gpx_layer">Sled GPX …</string>
+	<string name="error_reading_gpx">Napaka med branjem podatkov GPX</string>
+	<string name="vector_data">Nepovezani vektorski zemljevidi</string>
+	<string name="transport_context_menu">Iskanje prevoza na postaji</string>
+	<string name="osb_bug_name">Hrošč</string>
+	<string name="rotate_map_to_bearing_descr">Izberite poravnavo zaslona zemljevida</string>
+	<string name="show_route">Podrobnosti poti</string>
+	<string name="fav_imported_sucessfully">Priljubljene točke so bile uspešno uvožene</string>
+	<string name="fav_file_to_load_not_found">Datoteke GPX, ki vsebuje priljubljene, ni bilo mogoče najti na {0}</string>
+	<string name="osmand_long_description_1000_chars">
+		OsmAnd (OSM Automated Navigation Directions)
+
+		OsmAnd je odprtokodna aplikacija za navigacijo, ki uporablja širok nabor zemljevidov OpenStreetMap (OSM) za cel svet. Vse podatke zemljevidov (vektorske in ploščice) lahko shranite v pomnilnik naprave (telefona ali tablice) za uporabo brez povezave. OsmAnd omogoča tudi izračun poti in glasovno vodenje od zavoja do zavoja (turn-by-turn).
+
+		Pomembnejše lastnosti:
+		- Popolnoma uporaben brez povezave (shrani prenesene vektorske podatke ali ploščice zemljevida v mapo po izbiri)
+		- Na voljo so stisnjeni vektorski podatki zemljevida za cel svet
+		- Prenos podatkov zemljevida posameznih držav ali področij znotraj aplikacije
+		- Prekrivanje več plasti zemljevidov, npr. sled GPX, načrt poti, zanimive in priljubljene točke, izohipse, postajališča javnega prometa, dodatni zemljevidi z nastavljivo prosojnostjo
+		- Iskanje naslovov in krajev (POI) brez povezave do interneta
+		- Izdelava načrta najkrajše poti (poskusno)
+		- Način za avtomobiliste, kolesarje in pešce z:
+		  * nastavljivim samodejnim preklopom med dnevnim in nočnim prikazom
+		  * nastavljivo povečavo zemljevida glede na hitrost gibanja
+		  * nastavljivo usmerjenostjo zemljevida glede na kompas ali glede na smer gibanja
+		  * nastavljivo vodenje po voznih pasovih, prikaz omejitev hitrosti, vodenje s posnetim ali sintetiziranim govorom (TTS).
+
+		Brezplačna različica programa OsmAnd ima naslednje omejitve:
+		- omejeno je število prenosov zemljevidov
+		- brez povezave ni dostopa do točk iz Wikipedije.
+
+		OsmAnd je v aktivnem razvoju. Napredek projekta je odvisen od finančnih prispevkov s katerimi se financira razvoj in testiranje novih funkcionalnosti. Prosimo, razmislite o nakupu aplikacije OsmAnd+, ali financiranju posamezne funkcionalnosti, ali nenamensko donacijo na spletni strani osmand.net.
+	</string>
+	<string name="osmand_plus_long_description_1000_chars">
+		OsmAnd+ (OSM Automated Navigation Directions)
+
+
+OsmAnd+ je odprtokodna aplikacija za navigacijo, ki uporablja širok nabor zemljevidov OpenStreetMap (OSM) za cel svet. Vse podatke zemljevidov (vektorske in ploščice) lahko shranite v pomnilnik naprave (telefona ali tablice) za uporabo brez povezave. OsmAnd+ omogoča tudi izračun poti in glasovno vodenje od zavoja do zavoja (turn-by-turn).
+
+
+OsmAnd+ je plačljiva različica aplikacije. Z nakupom financirate nadaljnji razvoj in testiranje novih funkcionalnosti ter pridobite zadnje posodobitve.
+
+Pomembnejše lastnosti:
+ - Popolnoma uporaben brez povezave (shrani prenesene vektorske podatke ali ploščice zemljevida v mapo po izbiri)
+ - Na voljo so stisnjeni vektorski podatki zemljevida za cel svet
+ - Neomejen prenos podatkov zemljevida posameznih držav ali področij znotraj aplikacije
+ - Wikipedia brez povezave (prenos točk iz Wikipedie), odlično za oglede znamenitosti
+ - Prekrivanje več plasti zemljevidov, npr. sled GPX, načrt poti, zanimive in priljubljene točke, izohipse, postajališča javnega prometa, dodatni zemljevidi z nastavljivo prosojnostjo
+ - Iskanje naslovov in krajev (POI) brez povezave do interneta
+ - Izdelava načrta najkrajše poti (poskusno)
+ - Način za avtomobiliste, kolesarje in pešce z:
+  * nastavljivim samodejnim preklopom med dnevnim in nočnim prikazom
+  * nastavljivo povečavo zemljevida glede na hitrost gibanja
+  * nastavljivo usmerjenostjo zemljevida glede na kompas ali glede na smer gibanja
+  * nastavljivo vodenje po voznih pasovih, prikaz omejitev hitrosti, vodenje s posnetim ali sintetiziranim govorom (TTS)
+	</string>
+	<string name="error_occurred_loading_gpx">Napaka pri nalaganju GPX-a</string>
+	<string name="send_report">Pošlji poročilo</string>
+	<string name="none_region_found">Na SD kartici ni podatkov območij za uporabo brez povezave. Prenesite želena območja iz interneta.</string>
+	<string name="poi_namefinder_query_empty">Za iskanje POI morate vpisati poizvedbo</string>
+	<string name="any_poi">Katerikoli</string>
+	<string name="layer_transport_route">Pot javnega prevoza</string>
+	<string name="thanks_yandex_traffic">Zahvala gre Yandex-u za prometne informacije.</string>
+	<string name="layer_yandex_traffic">Yandex promet</string>
+	<string name="no_fav_to_save">Ni priljubljenih točk za shranjevanje</string>
+	<string name="layer_route">Pot</string>
+	<string name="layer_favorites">Priljubljeni</string>
+	<string name="layer_osm_bugs">OSM hrošči</string>
+	<string name="layer_transport">Postaje javnega prevoza</string>
+	<string name="layer_poi">POI …</string>
+	<string name="layer_map">Vir zemljevida …</string>
+	<string name="context_menu_item_search_poi">Iskanje POI</string>
+	<string name="use_trackball_descr">Uporabite sledilno kroglico za premikanje zemljevida</string>
+	<string name="use_trackball">Uporabite sledilno kroglico</string>
+	<string name="background_service_wait_int_descr">Nastavitev največje čakalne dobe za vsak fix položaja v ozadju</string>
+	<string name="background_service_wait_int">Največje čakanje za fix</string>
+	<string name="network_provider">Omrežje</string>
+	<string name="background_service_int_descr">Nastavitev intervala prebujanja v ozadju</string>
+	<string name="background_service_int">Interval prebujanja sprejemnika GPS</string>
+	<string name="background_service_provider_descr">Izberite ponudnika mesta med izvajanjem v ozadju</string>
+	<string name="background_service_provider">Ponudnik mesta</string>
+	<string name="background_router_service_descr">Izvaja OsmAnd v ozadju, da omogoča spremljanje položaja, ko je zaslon izklopljen</string>
+	<string name="background_router_service">Izvajaj v ozadju</string>
+	<string name="off_router_service_no_gps_available">Storitev navigacije v ozadju zahteva, da je vsaj en ponudnik mesta vklopljen.</string>
+	<string name="search_poi_filter">Filter</string>
+	
+	<string name="sd_unmounted">SD kartica ni dosegljiva.\nNe boste mogli gledati zemljevidov ali najti stvari.</string>
+	<string name="sd_mounted_ro">SD kartica je samo za branje.\nVidite lahko samo prednaloženi zemljevid in ne more prenesti z interneta.</string>
+	<string name="unzipping_file">Odzipanje datoteke …</string>
+	<string name="route_tr">Zavijte desno in pojdite</string>
+	<string name="route_tshr">Zavijte ostro desno in pojdite</string>
+	<string name="route_tslr">Zavijte rahlo desno in pojdite</string>
+	<string name="route_tl">Zavijte levo in pojdite</string>
+	<string name="route_tshl">Zavijte ostro levo in pojdite</string>
+	<string name="route_tsll">Zavijte rahlo levo in pojdite</string>
+	<string name="route_tu">Polkrožno obrnite in pojdite</string>
+	<string name="route_head">Začetek poti</string>
+	<string name="first_time_continue">Kasneje</string>
+	<string name="first_time_download">Prenos območij</string>
+	<string name="search_poi_location">Iskanje znaka …</string>
+	<string name="search_near_map">Iskanje v bližini zadnje lokacije</string>
+	<string name="tip_map_switch_t_v2">Vir zemljevida in prikazane plasti lahko spreminjate preko \'Meni\' → \'Sloji zemljevida\'.
+		\n\nPod \'Vir zemljevida …\' lahko izberete med uporabo prednaloženih vektorskih zemljevidov za delo brez povezave, vnaprej določenih spletnih zemljevidov (za to aktivirajte vtičnik \'Spletni zemljevidi\' v \'Nastavitve\' → \'Upravljalnik vtičnikov\'), ali ročno ustvarjenih zemljevidov z uporabo npr. OsmAndMapCreator-ja na računalniku.
+		\n\nOsmAnd podpira tudi vire po meri.
+	</string>
+	<string name="fav_saved_sucessfully">Priljubljene točke uspešno shranjene v {0}</string>
+	<string name="opening_hours_not_supported">Oblika delovnega časa ni podprta za urejanje</string>
+	<string name="add_new_rule">Dodajanje novega pravila</string>
+	<string name="transport_Routes">Poti</string>
+	<string name="transport_Stop">Postaja</string>
+	<string name="transport_stops">postaje</string>
+	<string name="transport_search_after">Naslednja pot</string>	
+	<string name="transport_search_before">Prejšnja pot</string>
+	<string name="transport_stop_to_go_out">Izberite izstopno postajo</string>
+	<string name="transport_to_go_after">prejšnja razdalja</string>
+	<string name="transport_to_go_before">naslednja razdalja</string>
+	<string name="transport_stops_to_pass">postaje do izstopa</string>
+	<string name="transport_route_distance">razdalja poti</string>
+	<string name="default_buttons_ok">V redu</string>
+	<string name="show_transport_over_map_description">Prikaz postaj javnega prevoza na zemljevidu</string>
+	<string name="show_transport_over_map">Prikaz postaj prevoza</string>
+	<string name="update_poi_success">POI podatki so bili uspešno posodobljeni ({0} naloženih)</string>
+	<string name="update_poi_error_local">Napaka pri posodabljanju lokalnega seznama POI</string>
+	<string name="update_poi_error_loading">Napaka pri nalaganju podatkov iz strežnika</string>
+	<string name="update_poi_no_offline_poi_index">Ni krajevnih POI podatkov za to področje</string>
+	<string name="update_poi_is_not_available_for_zoom">Posodabljanje POI ni na voljo pri majhnih povečavah</string>
+	<string name="context_menu_item_update_poi">Posodobitev POI</string>
+	<string name="context_menu_item_update_map_confirm">Posodobitev lokalnih podatkov prek interneta?</string>
+	<string name="search_history_city">Mesto: {0}</string>
+	<string name="search_history_street">Ulica: {0}, {1}</string>
+	<string name="search_history_int_streets">Križišče: {0} z {1} v {2}</string>
+	<string name="search_history_building">Zgradba: {0}, {1}, {2}</string>
+	<string name="clear_all">Počisti vse</string>
+	<string name="history">Zgodovina</string>
+	<string name="uploading_data">Nalaganje podatkov …</string>
+	<string name="uploading">Nalaganje …</string>
+	<string name="search_nothing_found">Ničesar najdeno</string>
+	<string name="searching">Iskanje …</string>
+	<string name="searching_address">Iskanje naslova …</string>
+	<string name="search_osm_nominatim">Iskanje naslova z OSM Nominatim</string>
+	<string name="hint_search_online">Hišna številka, ulica, kraj</string>
+	<string name="search_offline_address">Iskanje brez povezave</string>
+	<string name="search_online_address">Iskanje v povezavi</string>
+	<string name="max_level_download_tile">Maks. povečava za spletne</string>
+	<string name="max_level_download_tile_descr">Izbira najvišje stopnje povečave za prenos spletnih zemljevidov</string>
+	<string name="route_general_information">Skupna razdalja %1$s, čas potovanja %2$d u %3$d m.</string>
+	<string name="router_service_descr">Izbira spletne ali krajevne navigacijske storitve</string>
+	<string name="sd_dir_not_accessible">Shranjevalnega imenika na SD kartici ni na voljo</string>
+	<string name="download_question">Prenesti {0} - {1}?</string>
+	<string name="download_question_exist">Krajevni podatki za {0} že obstajajo ({1}). Ali jih želite posodobiti ({2})?</string>
+	<string name="address">Naslov</string>
+	<string name="download_index_success">Prenos uspešen</string>
+	<string name="error_io_error">Prišlo je do I/O napake</string>
+	<string name="downloading_list_indexes">Prenašanje seznama razpoložljivih območij …</string>
+	<string name="list_index_files_was_not_loaded">Seznam območij ni bil pridobljen iz osmand.net.</string>
+	<string name="mark_final_location_first">Prosim, najprej izberite cilj</string>
+	<string name="commiting_node">Posredovanje vozlišča …</string>
+	<string name="loading_poi_obj">Nalaganje POI …</string>
+	<string name="auth_failed">Pooblastitev ni uspela</string>
+	<string name="failed_op">ni uspelo</string>
+	<string name="converting_names">Pretvarjanje domačih/angleških imen …</string>
+	<string name="loading_streets_buildings">Nalaganje ulic/zgradb …</string>
+	<string name="loading_postcodes">Nalaganje poštnih številk …</string>
+	<string name="loading_streets">Nalaganje ulic …</string>
+	<string name="loading_cities">Nalaganje mest …</string>
+	
+	<string name="poi">POI</string>
+	<string name="error_occurred_saving_gpx">Napaka med shranjevanjem GPX-a</string>
+	<string name="error_calculating_route">Napaka pri izračunu poti</string>
+	<string name="error_calculating_route_occured">Zgodila se je napaka pri izračunu poti</string>
+	<string name="empty_route_calculated">Napaka: izračunana pot je prazna</string>					
+	<string name="new_route_calculated_dist">Izračunana nova pot, razdalja</string>
+	<string name="arrived_at_destination">Prispeli ste na cilj</string>
+	<string name="invalid_locations">Koordinate so neveljavne!</string>
+	<string name="go_back_to_osmand">Pojdi nazaj na OsmAnd zemljevid</string>
+	<string name="loading_data">Nalaganje podatkov …</string>
+	<string name="reading_indexes">Branje lokalnih podatkov …</string>
+	<string name="saving_gpx_tracks">Shranjevanje GPX sledi na SD kartico …</string>
+	<string name="finished_task">Končano</string>
+	<string name="reload_indexes_descr">Ponovno branje krajevnih vektorskih zemljevidov in podatkov iz SD kartice</string>
+	<string name="reload_indexes">Ponovno branje krajevnih podatkov</string>
+	<string name="download_indexes_descr">Prejmi ali posodobi podatke za uporabo brez internetne povezave</string>
+	<string name="use_online_routing_descr">Uporabi internet za izračun poti</string>
+	<string name="use_online_routing">Uporabi spletno navigacijo</string>
+	<string name="osm_settings_descr">Določi nastavitve Openstreetmap.org (OSM), ki so zahtevane za pošiljanje na OSM</string>
+	<string name="data_settings_descr">Določi jezik, prejmi/ponovno naloži podatke</string>
+	<string name="data_settings">Podatki</string>
+	<string name="map_preferences_descr">Določi nastavitve zemljevida: viri zemljevida, vrtenja, položaj označevalcev, usmerjenost zaslona</string>
+	<string name="update_tile">Posodobi zemljevid</string>
+	<string name="reload_tile">Ponovno naloži košček zemljevida</string>
+	<string name="map_view_3d_descr">Omogoči 3D pogled zemljevida</string>
+	<string name="map_view_3d">3D pogled zemljevida</string>
+	<string name="map_tile_source_descr">Izberite vir spletnih ali predpomnjenih delčkov zemljevida</string>
+	<string name="map_tile_source">Vir koščkov zemljevida</string>
+	<string name="map_source">Vir zemljevida</string>
+	<string name="download_indexes">Prenos krajevnih podatkov</string>
+	<string name="tip_recent_changes_0_8_0_t">"Spremembe v 0.8.0:
+\n\t- Plugin functionality
+\n\t- Most functionality is grouped by features and can be enabled/disabled in the Plugin Manager. You can enable (online or cached) tile map sources, tracking settings, and many other new and previously existing features.
+\n\t- New offline map data support\n\t- Map rendering becomes faster and more precise (coastline and flooded area problems are mainly fixed).
+\n\t- You need to download completely new offline data (old data will not be supported anymore)
+\n\t- Offline Routing
+\n\t- Offline routing becomes more robust
+\n\t- Usability and UI experience
+\n\t- Improved in many areas "</string>
+	<string name="tip_recent_changes_0_7_2_t">"Spremembe v 0.7.2:
+\n\t- Native rendering for all devices
+\n\t- Offline POI editing
+\n\t- Accessibility
+\n\t- Lots of bug fixes "</string>
+	<string name="tip_recent_changes_0_7_1_t">"Spremembe v 0.7.1:
+\n\t- Offline POI editing
+\n\t- Live Tracking option - send coordinates to web service periodically (read how to setup your own web service in HowTo Articles)
+\n\t- Show currently recorded track on map
+\n\t- Direction detection: \'Make U-turn\' is indicated and announced when heading in opposite direction or after missing a turn
+\n\t- New voice prompt \'Route recalculated\'
+\n\t- Optical indication of an imminent turn within 100m by diretion arrow changing color
+\n\t- Actuality also of deactivated index files now shown on Download screen in dark green and dark blue
+\n\t- Other changes "</string>
+	<string name="tip_recent_changes_0_7_0_t">"Spremembe v 0.7.0:
+\n\t- Offline wikipedia data with articles
+\n\t- Updated maps
+\n\t- Other small features "</string>    
+	<string name="tip_recent_changes_0_6_9_t">"Spremembe v 0.6.9:
+\n\t- Improved offline map rendering
+\n\t- Fast Native offline rendering - look in experimental features (may not work on some devices)
+\n\t- Massive look and feel changes
+\n\t- Altitude info
+\n\t- New translations (Vienamese, Polish)
+\n\t- Other small features "</string>
+	<string name="tip_recent_changes_0_6_8_t">"Spremembe v 0.6.8:
+\n\t- Completely redesigned search (POI, Address)! Make address search much faster and more responsive. Create one Search interface with many different options.
+\n\t- Implement POI search by name in big areas (countries)
+\n\t- Fix flickering map screen for tablets (Issue 641)
+\n\t- Auto-center map view option (Issue 356)
+\n\t- GPX navigation moved to \'Directions\' and \'Save Directions\' moved to \'About route\'
+\n\t- POI data included in .obf file (all download indexes after 01/10/11)
+\n\t- Voice prompt fixes (GPS position fix, omitting first command)
+\n\t- Small improvements "</string>
+	<string name="tip_recent_changes_0_6_7_t">"Nedavne spremembe za 0.6.7 :
+\n\t- Offline data manager (download, delete, activate / deactivate offline data directly in OsmAnd)
+\n\t- Favorite points and groups (categorize, delete, manage favorites)
+\n\t- GPX Explorer in application (view track detail, distance, average speed, elevation, etc.)
+\n\t- GPX navigation (more options, continue navigation after crash, support roundabouts)
+\n\t- Function to save route as GPX track for offline use
+\n\t- Improve GPX monitoring (filter some inaccurate position and save accuracy/elevation/speed)
+\n\t- Upload GPX to OSM community (http://download.osmand.net/gpx/)
+\n\t- Improve vector rendering
+\n\t- Improvement of TTS engine (announce exact distance, enable miles)
+\n\t- Bug fixes "</string>
+	<string name="tip_recent_changes_0_6_6_t">"Nedavne spremembe za 0.6.6 :
+\n\t- Text To Speech engine for voice navigation
+\n\t- Make map renderer more detailed
+\n\t- Basemap for whole world packaged with app
+\n\t- Tweak offline navigation (still experimental)
+\n\t- GPX navigation options
+\n\t- UI update and large bug fixing "</string>
+	<string name="map_widget_max_speed">Dovoljena hitrost</string>
+    <string name="tip_altitude_offset">Popravek zamika nadmorske višine</string>
+	<string name="tip_altitude_offset_t">"Večina GPS sprejemnikov sporoča meritve nadmorske višine glede na WGS84 referenčni elipsoid, ki zahteva lokalne popravke za pretvorbo v lokalni sistem.
+\n\nBoljši približek tem lokalnim sistemom je referenčni sistem EGM96.
+\n\nOsmAnd podpira prikaz nadmorske višine tudi v sistemu EGM96 tako, da prenesete datoteko \'World Altitude Correction\' (WW15MGH.DAC) prek \'Nastavitve\' → \'Upravljanje datotek zemljevidov\' (vir je na naslovu http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm96/binary/WW15MGH.DAC). "</string>
+    <string name="monitoring_control_start">začni</string>
+    <string name="rendering_attr_noAdminboundaries_name">Skrij upravne meje</string>
+	<string name="rendering_attr_noAdminboundaries_description">Ne prikazuj upravnih mej nivojev 5-9</string>
+	<string name="osmodroid_plugin_old_ver_not_supported">Vtičnik OsMoDroid je stare različice in je potreben posodobitve.</string>
+    <string name="osmodroid_plugin_description">Vtičnik OsMoDroid je OsmAnd razširitev za OsModroid aplikacijo za funkcije živega sledenja. Informacije o storitvi dobite na http://esya.ru.</string>
+    <string name="osmodroid_plugin_name">Vtičnik OsMoDroid</string>
+	<string name="index_srtm_ele">Izohipse</string>
+    <string name="srtm_plugin_description">Omogoča prenos izohips in senčenja hribov za uporabo brez povezave (\'Nastavitve\' → \'Upravljanje datotek zemljevidov\' → \'Prenos\' → Izbira vrste mape).</string>
+    <string name="srtm_plugin_name">Vtičnik Izohipse</string>
+    <string name="download_select_map_types">Drugi zemljevidi</string>
+    <string name="recording_context_menu_play">Predvajaj</string>
+    <string name="recording_description">Snemanje %1$s %2$s na %3$s</string>
+    <string name="recording_default_name">snemanje</string>
+    <string name="av_control_stop">Ustavi</string>
+    <string name="map_widget_av_notes">Zvočni zapisi</string>
+    <string name="osmand_srtm_short_description_80_chars">OsmAnd vtičnik za izohipse brez povezave</string>
+    
+    
+    <string name="map_widget_distancemeasurement">Merjenje razdalj</string>
+    <string name="monitoring_control_stop">Ustavi</string>
+    <string name="map_widget_audionotes">Zvočni zapisi</string>
+    <string name="audionotes_plugin_description">Shrani zvočne zapise med potovanjem</string>
+    <string name="audionotes_plugin_name">Vtičnik za zvočne zapise</string>
+    <string name="index_srtm_parts">deli</string>
+    <string name="download_srtm_maps">Podatki izohips</string>
+    <string name="recording_playing">Predvajanje zvoka iz izbranega posnetka.\n%1$s</string>
+    <string name="recording_open_external_player">Odpri zunanji predvajalnik</string>
+    <string name="recording_delete_confirm">Ali želite odstraniti ta posnetek?</string>
+    <string name="tip_recent_changes_1_1_0_t">Spremembe v 1.1.0:
+	\n\t* Vtičnik Računanje razdalj
+	\n\t* Vtičnik Zvočni zapisi
+	\n\t* Vtičnik Izohipse
+	\n\t* Odpravljene nekatere napake
+	\n\t* \'Touring pogled\' slog zemljevida z več podrobnostmi, novimi slogi za ceste, več kontrasta in možnostjo za alpsko pohodništvo (SAC lestvico)
+	\n\t* Popravek izravnave EGM96 geoida za GPS nadmorsko višino
+    </string>
+    <string name="recording_unavailable">ni na voljo</string>
+    <string name="recording_context_menu_arecord">Posnemi zvočni zapis</string>
+    <string name="recording_context_menu_vrecord">Posnemi video zapis</string>
+    <string name="recording_can_not_be_played">Posnetka ni mogoče predvajati</string>
+    <string name="recording_context_menu_delete">Zbriši posnetek</string>
+    <string name="recording_is_recorded">Zvok/video se snema. Za ustavitev pritisnite gumb ustavi na pripomočku.</string>
+    <string name="layer_recordings">Plast posnetkov</string>
+    <string name="av_control_start">Posnetek</string>
+    
+    
+    <string name="av_def_action_video">Snemanje videa</string>
+    <string name="av_def_action_audio">Snemanje zvoka</string>
+    <string name="av_widget_action_descr">Izberite privzeto dejanje za pripomoček</string>
+    <string name="av_widget_action">Privzeto dejanje za pripomoček</string>
+    <string name="av_video_format_descr">Izberite format za video</string>
+    <string name="av_video_format">Format za video</string>
+    <string name="av_use_external_recorder_descr">Uporabi sistemski snemalnik za video</string>
+    <string name="av_use_external_recorder">Uporabi zunanji snemalnik</string>
+    <string name="av_settings_descr">Konfiguracija nastavitev za zvok in video</string>
+    <string name="av_settings">"Nastavitve za zvok/video "</string>
+    <string name="recording_error">Med snemanjem je prišlo do napake </string>
+    <string name="recording_camera_not_available">Kamera ni na voljo</string>
+    <string name="osmand_srtm_long_description_1000_chars">Ta vtičnik ponuja izohipse, ki jih lahko prikažete v OsmAnd offline zemljevidih. Globalni podatki (med 70 stopinj severno in 70 stopinj južno) temeljijo na meritvah SRTM (Shuttle Radar Topography Mission) in ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer), ki je instrument za slikanje na krovu Terre, vodilnega satelita Nasinega sistema za opazovanje. ASTER je prizadevanje za sodelovanje med Naso, japonskim ministrstvom za gospodarstvo, trgovino in industrijo (METI) in japonskim vesoljskim sistemom (J-spacesystems).</string>
+    <string name="audionotes_location_not_defined">Mesto, ki naj bi ga povezali z opombo, še ni določeno. Uporabite \"Uporabi mesto …\" za dodelitev opombe za določeno mesto</string>
+    <string name="srtm_paid_version_msg">Prosimo, razmislite o nakupu vtičnika Izohipse v trgovini Market, da bi tako podprli nadaljnji razvoj.</string>
+    <string name="srtm_paid_version_title">Vtičnik Izohipse</string>
+    
+    <string name="intermediate_points_change_order">Spremeni vrstni red</string>
+    <string name="dropbox_plugin_description">Vtičnik Dropbox omogoča sinhronizacijo datotek sledi in video/zvočnih posnetkov z vašim dropbox uporabniškim računom.</string>
+    <string name="dropbox_plugin_name">Vtičnik Dropbox</string>
+    <string name="recording_context_menu_show">Prikaži</string>
+    <string name="recording_photo_description">Fotografija %1$s ob %2$s</string>
+    <string name="av_def_action_picture">Posnami fotografijo</string>
+    <string name="recording_context_menu_precord">Posnami fotografijo</string>
+    <string name="stop_routing_confirm">Ali ste prepričani, da želite prekiniti navigacijo?</string>
+    <string name="clear_dest_confirm">Ali ste prepričani, da želite izbrisati cilj?</string>
+    <string name="precise_routing_mode_descr">Omogočite za izračun natančnih poti brez spodrsljajev. Še vedno počasno in zelo omejeno glede na razdaljo.</string>
+    <string name="precise_routing_mode">Natančno usmerjanje (alfa)</string>
+    <string name="local_indexes_cat_av">Podatki zvoka/videa</string>
+    <string name="dist_control_start">Izmeri</string>
+    <string name="support_new_features_descr">Darujte, tako boste pripomogli k razvoju novih funkcionalnosti</string>
+	<string name="tip_recent_changes_1_1_2_t">Spremembe v 1.1.2:
+	\n\t* Audio/Video vtičnik za izboljšavo (fotografije z informacijami EXIF)
+	\n\t* Popravljena uporabnost in struktura vtičnika za izohipse
+	\n\t* Paketi senčenega terena za vtičnik za izohipse
+	\n\t* Popravki napak (izračun naj-optimalne poti)
+    </string>
+    <string name="download_hillshade_item">Senčen teren</string>
+    <string name="download_hillshade_maps">Zemljevidi senc terena</string>
+    <string name="tip_recent_changes_1_2_t">"Popravki v 1.2.1:↵\n\t* Popravek za Geo Intent (Foursquare, c:geo)↵\n\t* Popravek za tresenje zaslona med navigacijo↵\n\t* Drugi manjši popravki↵\n↵\nSpremembe v 1.2:
+\n\t* Odpravljene napake (boljše usmerjanje, iskanje, zvočno in video snemanje, glasovna navodila, boljši prikaz)
+\n\t* Enostavnejša nastavitev prikaza senčenja terena (potrebuje vtičnik za izohipse \"Contour Lines plugin\")
+\n\t* Podpora povezavam z lokacijo na maps.google.com
+\n\t* Nov pripomoček (GPS info)
+\n\t* Dodana podporam za več oken na novejših napravah Samsung
+\n\t* Kalmanov filter za kompas\n\t* Podpora za Pebble watch "</string>
+    <string name="av_use_external_camera_descr">Uporabi sistemsko aplikacijo za fotografijo</string>
+    <string name="av_use_external_camera">Uporabi aplikacijo Kamera</string>
+    <string name="index_name_openmaps">EU OpenMaps</string>
+    <string name="prefer_motorways">Raje avtoceste</string>
+	<string name="prefer_in_routing_title">Raje …</string>
+	<string name="prefer_in_routing_descr">Raje avtoceste</string>
+    <string name="max_speed_none">brez</string>
+    <string name="av_def_action_choose">Izberite na zahtevo</string>
+    <string name="item_checked">izbrano</string>
+    <string name="item_unchecked">ni izbrano</string>
+    <string name="map_view">Zemljevid</string>
+    <string name="access_arrival_time">Čas prihoda</string>
+    <string name="layer_hillshade">Plast senčen teren</string>
+    <string name="map_widget_gps_info">GPS informacije</string>
+    <string name="osmand_play_title_30_chars">OsmAnd Zemljevidi in navigacija</string>
+	<string name="osmand_plus_play_title_30_chars">OsmAnd+ Zemljevidi in navigacija</string>
+	<string name="tip_recent_changes_1_1_4_t">Spremembe v 1.1.4:
+	\n\t* Prenovljen izgled
+	\n\t* Odpravljene napake
+    </string>
+    
+	<string name="street_name">Ulica</string>
+	<string name="hno">Hišna številka</string>
+    <string name="tip_recent_changes_1_3_t">Spremembe v 1.3:
+	\n\t* Ponovna podpora za tablice in za večje zaslone
+	\n\t* Holo tema (prilagoditev)
+	\n\t* Dodatne nastavitve za stabiliziranje kompasa
+	\n\t* Zgornji levi gumb na zaslonu zemljevida nadomesti gumb Meni
+    </string>
+    <string name="monitoring_settings">Registracija potovanja</string>
+    <string name="osmand_monitoring_plugin_name">Storitve beleženja</string>
+    <string name="select_address_activity">Izberite naslov</string>
+    <string name="favourites_list_activity">Izberite priljubljeno</string>
+    <string name="local_openstreetmap_act_title">Spremembe OSM</string>
+    <string name="default_buttons_other_actions">Druge aktivnosti</string>
+    <string name="use_magnetic_sensor">Uporabi magnetno tipalo</string>
+    <string name="other_location">Ostalo</string>
+    <string name="files_limit">Preostalo še %1$d datotek</string>
+    <string name="available_downloads_left">Na voljo za prenos je še %1$d datotek</string>
+    <string name="install_paid">Polna različica</string>
+    <string name="cancel_navigation">Prekini navigacijo</string>
+    <string name="clear_destination">Izbriši cilj</string>
+    <string name="download_using_mobile_internet">Trenutno WiFi ni povezan. Ali želite nadaljevati prenos prek obstoječe internetne povezave?</string>
+    <string name="delete_point">Izbriši točko</string>
+    <string name="plugin_distance_point_time">čas</string>
+    <string name="plugin_distance_point_hdop">natančnost</string>
+    <string name="plugin_distance_point_speed">hitrost</string>
+    <string name="plugin_distance_point_ele">nadmorska višina</string>
+    <string name="plugin_distance_point">Točka</string>
+    <string name="gpx_file_name">Ime datoteke GPX</string>
+    <string name="gpx_saved_sucessfully">Datoteka GPX uspešno shranjena v {0}</string>
+    <string name="default_buttons_do_not_show_again">Ne prikaži več</string>
+    <string name="distance_measurement_start_editing">Začni urejati</string>
+    <string name="distance_measurement_finish_editing">Končaj urejanje</string>
+    <string name="distance_measurement_clear_route">Počisti vse točke</string>
+    <string name="distance_measurement_save_gpx">Shrani kot GPX</string>
+    <string name="distance_measurement_load_gpx">Odpri obstoječ GPX</string>
+    <string name="context_menu_item_destination_point">Nastavi kot cilj</string>
+    <string name="please_select_address">Najprej morate izbrati kraj ali ulico</string>
+    <string name="search_street_in_neighborhood_cities">Iskanje ulice v sosednjih krajih</string>
+    <string name="intermediate_items_sort_return">Vmesne točke so razvrščene po vrsti na poti do cilja.</string>
+    <string name="local_osm_changes_backup_successful">Uspešno ustvarjena datoteka sprememb za OSM %1$s</string>
+    <string name="local_osm_changes_backup_failed">Varnostna kopija sprememb za OSM ni uspela</string>
+    <string name="local_osm_changes_backup">Varnostna kopija sprememb za OSM</string>
+    <string name="destination_point">Cilj %1$s</string>
+    <string name="tip_recent_changes_1_4_t">"Spremembe v 1.4:
+\n\t* Optimalno razvrščanje točk za obisk vseh (potujoči prodajalec, od vrat do vrat)\n\t* Iskanje ulice po imenu (v okolici)
+\n\t* Vtičnik za načrtovanje (nalaganje/urejanje/shranjevanje GPX sledi)\n\t* Nov zaslon za prenos (prenos v ozadju)\n\t* Podpora za GPX pod-mape (za urejene GPX sledi)
+\n\t* Brisanje SRTM datotek
+\n\t* Podpora OSM opomb "</string>
+    <string name="intermediate_items_sort_by_distance">Razvrščanje (od vrat do vrat)</string>
+    <string name="osmand_distance_planning_plugin_description">Ustvarite poti (ali uporabite/spremenite obstoječe GPX datoteke) za merjenje razdalj med točkami. Shrani kot GPX se lahko uporabi za načrtovanje GPX poti.</string>
+    <string name="osmand_distance_planning_plugin_name">Računanje razdalj in Orodje za načrtovanje</string>
+    <string name="distance_measurement_finish_subtrack">Začni novo pod-sled</string>
+    <string name="wait_current_task_finished">Počakajte, da je trenutna naloga končana</string>
+    <string name="use_kalman_filter_compass_descr">Uporaba Kalmanovega filtra za preprečevanje odstopanj kompasa</string>
+    <string name="use_kalman_filter_compass">Uporabi Kalmanov filter</string>
+    <string name="access_mark_final_location_first">Način dostopnosti: prosim, najprej izberite cilj</string> 
+    <string name="use_magnetic_sensor_descr">Namesto senzorja usmerjenosti, za določanje vrednosti kompasa uporabljaj magnetni senzor</string>
+    <string name="cancel_route">Opusti pot</string>
+    <string name="monitoring_settings_descr">Določite, kako naj se registrirajo vaša potovanja</string>
+    <string name="osmand_monitoring_plugin_description">Omogoči sledenje in navigacijo v načinu pripravljenosti (izklopljen zaslon) preko rednega zbujanja GPS naprave. Pokaže nastavitve, ki omogočajo snemanje potovanj v lokalne GPX datoteke ali na splet z uporabo spletnih storitev.</string>
+    <string name="choose_osmand_theme_descr">Izbira teme programa</string>
+    <string name="choose_osmand_theme">Tema aplikacije</string>
+    <string name="accessibility_options">Možnosti dostopnosti</string>
+    <string name="local_indexes_cat_srtm">Podatki izohips</string>
+    <string name="downloading_file_new">Prenašanje …</string>
+	<string name="use_distance_measurement_help">* Pritisnite za označitev točke.\n * Pritisnite in držite na zemljevidu za brisanje prejšnje točke.\n * Pritisnite in držite na točki za ogled ali dodajanje opisa.\n * Kliknite na vtičnik za meritve za prikaz več dejanj.</string>
+    <string name="osmand_extended_description_4000_chars">
+OsmAnd (OSM Automated Navigation Directions - Avtomatsko usmerjanje), je zemljevid in program za navigacijo z dostopom do svetovnih brezplačnih, zelo kakovostnih OpenStreetMap (OSM) podatkov. Vse podatke map je mogoče shraniti na pomnilniško kartico vašega telefona za uporabo brez povezave. OsmAnd ponuja usmerjanje preko GPS-a vaše naprave, s prikazom na ekranu in glasovno, za avto, kolo in pešce. Vse glavne funkcije delujejo tako v povezavi kot brez nje (internet ni potreben).
+
+Nekatere glavne značilnosti:
+
+Navigacija
+ - Dela v povezavi (hitro) ali brez nje (ko ste v tujini ni potrebno plačevati gostovanja)
+ - Turn-by-turn glasovno vodenje (z registriranim ali sintetiziranim glasom)
+ - Po želji usmerjanje po voznih pasovih, prikaz imena ulice in predvidevanje časa prihoda
+ - Podpora vmesnih točk na poti
+ - Samodejno ponovno usmerjanje kadarkoli se oddaljite od določene poti
+ - Iskanje krajev po naslovu, po vrsti (npr.: restavracija, hotel, bencinska črpalka, muzej) ali z geografskimi koordinatami po zemljevidu
+ - Prikaz vašega položaj in usmeritve na zemljevidu
+ - Po želji uravnava zemljevida po kompasu ali v smeri gibanja
+ - Shranjevanje najpomembnejših krajev kot priljubljeni
+ - Prikaz POI (točke interesov) v okolici
+ - Možnost prikaza specializiranih spletnih zemljevidov
+ - Možnost prikaza satelitski posnetkov (Bing)
+ - Možnost prikaza različnih podatkov na mapi, kot so GPX poti potovanja/navigacije in dodatni zemljevidi s prilagodljivo prozornostjo
+ - Možnost prikaza imena krajev v angleščini, z lokalnim ali fonetičnim črkovanjem
+
+Uporaba podatkov iz OpenStreetMap-a in Wikipedije:
+ - Visoka kakovost informacij od najboljših svetovnih skupinskih projektov
+ - Globalni zemljevidi iz OpenStreetMap-a, na voljo za vsako državo ali regijo
+ - Wikipedia POI točke, super za oglede (ni na voljo v brezplačni različici)
+ - Neomejeni brezplačni prenos neposredno iz programa (prenos omejen na 16 map/datotek v brezplačni različici)
+ - Vedno posodobljeni zemljevidi (posodobljeni vsaj enkrat mesečno)
+ - Kompaktni lokalni vektorski zemljevidi
+ - Izberite lahko med zemljevidi z vsemi podatki ali samo cestnim omrežjem (primer: vsa Japonska je velika 700 MB ali 200 MB samo za cestno omrežje)
+ - Podpora tudi shranjevanju spletnih zemljevidov
+
+Varnostne funkcije
+ - Možnost avtomatskega preklopa med dnevnim in nočnim pogledom
+ - Možnost prikazovanja omejitev hitrosti z obveščanjem ob prekoračitvi omejitve
+ - Možnost povečave zemljevida glede na hitrost vožnje
+ - Delitev lokacije, tako da vas lahko vaši prijatelji najdejo
+
+Funkcije za kolesarje in pešce
+ - Zemljevidi vključujejo pohodniške in kolesarske steze, odlični so za dejavnosti na prostem
+ - Posebno usmerjanje in različni načini prikaza za kolesarje in pešce
+ - Možnost prikaza postaj javnega prevoza (avtobus, tramvaj, vlak), vključno z imeni prog
+ - Možno shranjevanje v lokalno GPX datoteko ali spletno storitev – Možnost prikaza hitrosti in nadmorske višine
+ - Prikaz izohips in senčenja hribov (prek dodatnega vtičnika)
+
+Direktno prispevanje k projektu OpenStreetMap
+ - Prijava napak zemljevida
+ - Nalaganje GPX sledi v OSM neposredno iz programa
+ - Dodajanje POI točk in neposreden prenos v OSM (tudi kasneje, če brez povezave)
+ - Možno snemanje v ozadju (medtem ko je naprave v pripravljenosti)
+
+OsmAnd je odprtokodni in aktivno v razvoju. Vsakdo lahko prispeva s sporočanjem hroščev, izboljšanjem prevodov ali s kodiranjem nove funkcije. Projekt je v živahnem in nenehnem izboljševanju po zaslugi vseh teh oblik interakcij med razvijalci in uporabniki. Napredek projekta je odvisen tudi od finančnih prispevkov za razvoj, kodiranje in testiranje novih funkcij. Z nakupom OsmAnd+ pomagate, da se program še bolj razvije! Možno je tudi financiranje posebne nove funkcije, ali pa splošna donacija na osmand.net.
+
+Približna pokritost zemljevidov in kakovost le-teh:
+ - Zahodna Evropa: ****
+ - Vzhodna Evropa: ***
+ - Rusija: ***
+ - Severna Amerika: ***
+ - Južna Amerika: **
+ - Azija: **
+ - Japonska in Koreja: ***
+ - Bližnji vzhod: **
+ - Afrika: **
+ - Antarktika: *
+
+Seznam držav (praktično ves svet!): Afganistan, Albanija, Alžirija, Andora, Angola, Angvila, Antigva in Barbuda, Argentina, Armenija, Aruba, Avstralija, Avstrija, Azerbajdžan, Bahami, Bahrajn, Bangladeš, Barbados, Belorusija, Belgija, Belize, Benin, Bermuda, Butan, Bolivija, Bonaire, Bosna in Hercegovina, Bocvana, Brazilija, Britanski Deviški otoki, Brunej, Bolgarija, Burkina Faso, Burundi, Kambodža, Kamerun, Kanada, Zelenortski otoki, Srednjeafriška republika, Čad, Čile, Kitajska, Kolumbija, Komori, Kongo, Kostarika, Slonokoščena obala, Hrvaška, Kuba, Curaçao, Ciper, Češka, Danska, Džibuti, Dominika, Dominikanska republika, Ekvador, Egipt, Salvador, Ekvatorialna Gvineja, Eritreja, Estonija, Etiopija, Fidži, Finska, Francija, Francoska Gvajana, Francoska Polinezija, Gabon, Gambija, Gruzija, Nemčija, Gana, Gibraltar, Grčija, Grenlandija, Grenada, Guadeloupe, Guam, Gvatemala, Guernsey, Gvineja, Gvineja Bissau, Gvajana, Haiti, Vatikan, Honduras, Hong Kong, Madžarska, Islandija, Indija, Indonezija, Iran, Irak, Irska, otok Man, Izrael, Italija, Jamajka, Japonska, Jersey, Jordanija, Kazahstan, Kenija, Kiribati, Severna Koreja in Južna Koreja, Kuvajt, Kirgizistan, Laos, Latvija, Libanon, Lesoto, Liberija, Libija, Liechtenstein, Litva, Luksemburg, Macao, Makedonija, Madagaskar, Malavi, Malezija, Maldivi, Mali, Malta, Martinique, Mavretanija, Mauritius, Mayotte, Mehika, Mikronezija, Moldavija, Monako, Mongolija, Črna gora, Montserrat, Maroko, Mozambik, Mjanmar, Namibija, Nauru, Nepal, Nizozemska, Nizozemski Antili, Nova Kaledonija, Nova Zelandija, Nikaragva, Niger, Nigerija, Norveška, Oman, Pakistan, Palau, Palestinsko ozemlje, Panama, Papua Nova Gvineja, Paragvaj, Peru, Filipini, Poljska, Portugalska, Portoriko, Katar, Romunija, Rusija, Ruanda, Saint Barthelemy, Saint Helena, Saint Kitts in Nevis, Sveta Lucija, Saint Martin, Saint Pierre in Miquelon, Saint Vincent in Grenadine, Samoa, San Marino, Saudska Arabija, Senegal, Srbija, Sejšeli, Sierra Leone, Singapur, Slovaška, Slovenija, Somalija, Južna Afrika, Južna Georgia, Južni Sudan, Španija, Šrilanka, Sudan, Surinam, Svazi, Švedska, Švica, Sirija, Tajvan, Tadžikistan, Tanzanija, Tajska, Vzhodni Timor, Togo, Tokelau, Tonga, Trinidad in Tobago, Tunizija, Turčija, Turkmenistan, Tuvalu, Uganda, Ukrajina, Združeni arabski emirati, Velika Britanija (UK), Združene države Amerike (ZDA), Urugvaj, Uzbekistan, Vanuatu, Venezuela, Vietnam, Wallis in Fortuna, Zahodna Sahara, Jemen, Zambija, Zimbabve.
+	</string>
+	<string name="osmand_plus_extended_description_4000_chars">
+OsmAnd (OSM Automated Navigation Directions - Avtomatsko usmerjanje), je zemljevid in program za navigacijo z dostopom do svetovnih brezplačnih, zelo kakovostnih OpenStreetMap (OSM) podatkov. Vse podatke map je mogoče shraniti na pomnilniško kartico vašega telefona za uporabo brez povezave. OsmAnd ponuja usmerjanje preko GPS-a vaše naprave, s prikazom na ekranu in glasovno, za avto, kolo in pešce. Vse glavne funkcije delujejo tako v povezavi kot brez nje (internet ni potreben).
+
+OsmAnd+ je plačljiva različica programa. Z nakupom boste podprli projekt, financirali razvoj novih funkcij in seveda prejemali najnovejše posodobitve. Lahko preizkusite program pred nakupom tako, da namestite brezplačno različico OsmAnd.
+
+Nekatere glavne značilnosti:
+
+Navigacija
+ - Dela v povezavi (hitro) ali brez nje (ko ste v tujini ni potrebno plačevati gostovanja)
+ - Turn-by-turn glasovno vodenje (z registriranim ali sintetiziranim glasom)
+ - Po želji usmerjanje po voznih pasovih, prikaz imena ulice in predvidevanje časa prihoda
+ - Podpora vmesnih točk na poti
+ - Samodejno ponovno usmerjanje kadarkoli se oddaljite od določene poti
+ - Iskanje krajev po naslovu, po vrsti (npr.: restavracija, hotel, bencinska črpalka, muzej) ali z geografskimi koordinatami po zemljevidu
+ - Prikaz vašega položaj in usmeritve na zemljevidu
+ - Po želji uravnava zemljevida po kompasu ali v smeri gibanja
+ - Shranjevanje najpomembnejših krajev kot priljubljeni
+ - Prikaz POI (točke interesov) v okolici
+ - Možnost prikaza specializiranih spletnih zemljevidov
+ - Možnost prikaza satelitski posnetkov (Bing)
+ - Možnost prikaza različnih podatkov na mapi, kot so GPX poti potovanja/navigacije in dodatni zemljevidi s prilagodljivo prozornostjo
+ - Možnost prikaza imena krajev v angleščini, z lokalnim ali fonetičnim črkovanjem
+
+Uporaba podatkov iz OpenStreetMap-a in Wikipedije:
+ - Visoka kakovost informacij od najboljših svetovnih skupinskih projektov
+ - Globalni zemljevidi iz OpenStreetMap-a, na voljo za vsako državo ali regijo
+ - Wikipedia POI točke, super za oglede
+ - Neomejeni brezplačni prenos neposredno iz programa (prenos omejen na 16 map/datotek v brezplačni različici)
+ - Vedno posodobljeni zemljevidi (posodobljeni vsaj enkrat mesečno)
+ - Kompaktni lokalni vektorski zemljevidi
+ - Izberite lahko med zemljevidi z vsemi podatki ali samo cestnim omrežjem (primer: vsa Japonska je velika 700 MB ali 200 MB samo za cestno omrežje)
+ - Podpora tudi shranjevanju spletnih zemljevidov
+
+Varnostne funkcije
+ - Možnost avtomatskega preklopa med dnevnim in nočnim pogledom
+ - Možnost prikazovanja omejitev hitrosti z obveščanjem ob prekoračitvi omejitve
+ - Možnost povečave zemljevida glede na hitrost vožnje
+ - Delitev lokacije, tako da vas lahko vaši prijatelji najdejo
+
+Funkcije za kolesarje in pešce
+ - Zemljevidi vključujejo pohodniške in kolesarske steze, odlični so za dejavnosti na prostem
+ - Posebno usmerjanje in različni načini prikaza za kolesarje in pešce
+ - Možnost prikaza postaj javnega prevoza (avtobus, tramvaj, vlak), vključno z imeni prog
+ - Možno shranjevanje v lokalno GPX datoteko ali spletno storitev – Možnost prikaza hitrosti in nadmorske višine
+ - Prikaz izohips in senčenja hribov (prek dodatnega vtičnika)
+
+Direktno prispevanje k projektu OpenStreetMap
+ - Prijava napak zemljevida
+ - Nalaganje GPX sledi v OSM neposredno iz programa
+ - Dodajanje POI točk in neposreden prenos v OSM (tudi kasneje, če brez povezave)
+ - Možno snemanje v ozadju (medtem ko je naprave v pripravljenosti)
+
+OsmAnd je odprtokodni in aktivno v razvoju. Vsakdo lahko prispeva s sporočanjem hroščev, izboljšanjem prevodov ali s kodiranjem nove funkcije. Projekt je v živahnem in nenehnem izboljševanju po zaslugi vseh teh oblik interakcij med razvijalci in uporabniki. Napredek projekta je odvisen tudi od finančnih prispevkov za razvoj, kodiranje in testiranje novih funkcij. Z nakupom OsmAnd+ pomagate, da se program še bolj razvije! Možno je tudi financiranje posebne nove funkcije, ali pa splošna donacija na osmand.net.
+
+Približna pokritost zemljevidov in kakovost le-teh:
+ - Zahodna Evropa: ****
+ - Vzhodna Evropa: ***
+ - Rusija: ***
+ - Severna Amerika: ***
+ - Južna Amerika: **
+ - Azija: **
+ - Japonska in Koreja: ***
+ - Bližnji vzhod: **
+ - Afrika: **
+ - Antarktika: *
+
+Seznam držav (praktično ves svet!): Afganistan, Albanija, Alžirija, Andora, Angola, Angvila, Antigva in Barbuda, Argentina, Armenija, Aruba, Avstralija, Avstrija, Azerbajdžan, Bahami, Bahrajn, Bangladeš, Barbados, Belorusija, Belgija, Belize, Benin, Bermuda, Butan, Bolivija, Bonaire, Bosna in Hercegovina, Bocvana, Brazilija, Britanski Deviški otoki, Brunej, Bolgarija, Burkina Faso, Burundi, Kambodža, Kamerun, Kanada, Zelenortski otoki, Srednjeafriška republika, Čad, Čile, Kitajska, Kolumbija, Komori, Kongo, Kostarika, Slonokoščena obala, Hrvaška, Kuba, Curaçao, Ciper, Češka, Danska, Džibuti, Dominika, Dominikanska republika, Ekvador, Egipt, Salvador, Ekvatorialna Gvineja, Eritreja, Estonija, Etiopija, Fidži, Finska, Francija, Francoska Gvajana, Francoska Polinezija, Gabon, Gambija, Gruzija, Nemčija, Gana, Gibraltar, Grčija, Grenlandija, Grenada, Guadeloupe, Guam, Gvatemala, Guernsey, Gvineja, Gvineja Bissau, Gvajana, Haiti, Vatikan, Honduras, Hong Kong, Madžarska, Islandija, Indija, Indonezija, Iran, Irak, Irska, otok Man, Izrael, Italija, Jamajka, Japonska, Jersey, Jordanija, Kazahstan, Kenija, Kiribati, Severna Koreja in Južna Koreja, Kuvajt, Kirgizistan, Laos, Latvija, Libanon, Lesoto, Liberija, Libija, Liechtenstein, Litva, Luksemburg, Macao, Makedonija, Madagaskar, Malavi, Malezija, Maldivi, Mali, Malta, Martinique, Mavretanija, Mauritius, Mayotte, Mehika, Mikronezija, Moldavija, Monako, Mongolija, Črna gora, Montserrat, Maroko, Mozambik, Mjanmar, Namibija, Nauru, Nepal, Nizozemska, Nizozemski Antili, Nova Kaledonija, Nova Zelandija, Nikaragva, Niger, Nigerija, Norveška, Oman, Pakistan, Palau, Palestinsko ozemlje, Panama, Papua Nova Gvineja, Paragvaj, Peru, Filipini, Poljska, Portugalska, Portoriko, Katar, Romunija, Rusija, Ruanda, Saint Barthelemy, Saint Helena, Saint Kitts in Nevis, Sveta Lucija, Saint Martin, Saint Pierre in Miquelon, Saint Vincent in Grenadine, Samoa, San Marino, Saudska Arabija, Senegal, Srbija, Sejšeli, Sierra Leone, Singapur, Slovaška, Slovenija, Somalija, Južna Afrika, Južna Georgia, Južni Sudan, Španija, Šrilanka, Sudan, Surinam, Svazi, Švedska, Švica, Sirija, Tajvan, Tadžikistan, Tanzanija, Tajska, Vzhodni Timor, Togo, Tokelau, Tonga, Trinidad in Tobago, Tunizija, Turčija, Turkmenistan, Tuvalu, Uganda, Ukrajina, Združeni arabski emirati, Velika Britanija (UK), Združene države Amerike (ZDA), Urugvaj, Uzbekistan, Vanuatu, Venezuela, Vietnam, Wallis in Fortuna, Zahodna Sahara, Jemen, Zambija, Zimbabve.
+	</string>
+	
+	
+	<string name="av_camera_focus">Vrsta ostrenja kamere</string>
+	<string name="av_camera_focus_descr">Izberite vrsto ostrenja vgrajene kamere</string>
+	<string name="av_camera_focus_auto">Samodejno ostrenje</string>
+	<string name="av_camera_focus_hiperfocal">Hiperfokalno ostrenje</string>
+	<string name="av_camera_focus_edof">Povečana globinska ostrina (EDOF)</string>
+	<string name="av_camera_focus_infinity">Ostrenje je nastavljeno na neskončno</string>
+	<string name="av_camera_focus_macro">Makro (close-up) način ostrenja</string>
+	<string name="av_camera_focus_continuous">Kamera nenehno poskuša ostriti</string>
+	<string name="av_photo_play_sound">Predvajaj zvok pri slikanju</string>
+	<string name="av_photo_play_sound_descr">Izberite ali naj se predvaja zvok ob fotografiranju</string>
+
+	
+    <string name="speak_speed_limit">Napovej omejitve hitrosti</string>
+    <string name="speak_cameras">Napovej hitrostne kamere</string>
+	<string name="speak_traffic_warnings">Napovej prometna opozorila</string>
+	<string name="tip_recent_changes_1_5_t">Spremembe v 1.5:
+	\n\t* Glasovna opozorila o omejitvah hitrosti in kamere
+	\n\t* Več možnosti glasovnih pozivov (najavljanje imen ulic)
+	\n\t* Ikone za mape visoke gostote
+	\n\t* Veliko sprememb v uporabniškem vmesniku
+	\n\t* Popravek hroščev pri prikazu razdalj, GPX analizatorju, upravljanju točk, gradniku za načrtovanje, nalaganje na OSM, pri uporabi https protokola
+    </string>
+    <string name="osb_author_or_password_not_specified">Prosimo da v nastavitvah vpišete uporabniško ime in geslo za OSM</string>
+    <string name="clear_intermediate_points">Počisti vmesne točke</string>
+    <string name="keep_intermediate_points">Obdrži vmesne točke</string>
+    <string name="new_directions_point_dialog">Že nastavljene vmesne točke.</string>
+    <string name="context_menu_item_directions_to">Navodila za</string>
+    <string name="context_menu_item_directions_from">Navodila od</string>
+    <string name="route_descr_map_location">Zemljevid: </string>
+    <string name="route_to">Do:</string>
+    <string name="route_via">Prek:</string>
+    <string name="route_from">Od:</string>
+    <string name="osb_author_dialog_password">OSM geslo (neobvezno)</string>
+    <string name="osmodroid_mode_on">Ustavi OsMoDroid</string>    
+    <string name="osmodroid_mode_off">Zaženi OsMoDroid</string>
+    <string name="announce_gpx_waypoints">Najavljanje GPX točk</string>
+    <string name="speak_title">Najavi …</string>
+	<string name="speak_descr">Nastavitve za najavljanje imena ulic, prometna opozorila (ležeči policaji ipd.), opozorila merilnikov hitrosti, omejitve hitrosti</string>
+	<string name="speak_street_names">Najavljanje imen ulic (TTS)</string>
+    <string name="map_widget_fps_info">Podatki razhroščevanja FPS</string>
+	<string name="driving_region_descr">Izbira področja vožnje: ZDA, Evropa, Velika Britanija, Azija in druge</string>
+	<string name="driving_region">Področje vožnje</string>
+	<string name="driving_region_japan">Japonska</string>
+	<string name="driving_region_us">Združene države</string>
+	<string name="driving_region_canada">Kanada</string>
+	<string name="driving_region_europe_asia">Evropa in Azija</string>
+	<string name="driving_region_uk">Velika Britanija, Indija, Avstralija in drugo</string>
+	<string name="tip_map_styles">Slogi zemljevida</string>
+	<string name="about_version">Različica:</string>
+    <string name="about_settings">Vizitka</string>
+    <string name="about_settings_descr">Informacije o različici, licenci, članih projekta</string>
+    <string name="tips_and_tricks">Pomoč</string>
+    <string name="tip_recent_changes_1_6_t">Spremembe v 1.6:
+	\n\t* Podpora naprav Full HD
+	\n\t* Podpora za prozorno ozadje zemljevida
+	\n\t* Prikaz naloženih zemljevidov in boljše nalaganje manjkajočih zemljevidov neposredno iz pogleda na zemljevid
+	\n\t* Zemljevidi izohips zdaj v paketu za države/regije
+	\n\t* Nov osnovni svetovni zemljevid z glavnimi cestami, železnicami in glavnimi površinskimi območji, kot so gozdovi
+	\n\t* Funkcija za povečavo zemljevida (dolgi klik na gumb povečava) - Uporabno tako za ploščice in vektorske zemljevide
+	\n\t* Določitev/urejanje vira spletnih ploščic po meri (in določitev časa izteka)
+	\n\t* Podpora za časovno pogojene omejitve hitrosti (Nizozemska)
+
+	\n\t* Hitrejše nastavljanje iskanja naslova
+	\n\t* Popravki napak pri usmerjanju in prikazovanju zemljevidov
+    </string>
+    <string name="local_index_tile_data_zooms">Prenesene povečave: %1$s</string>
+    <string name="local_index_tile_data_expire">Potečejo v (minute): %1$s</string>
+    <string name="local_index_tile_data_downloadable">Za prenos: %1$s</string>
+    <string name="local_index_tile_data_maxzoom">Največja povečava: %1$s</string>
+    <string name="local_index_tile_data_minzoom">Najmanjša povečava: %1$s</string>
+    <string name="local_index_tile_data_name">Podatki ploščic: %1$s</string>
+    <string name="edit_tilesource_successfully">Izvor ploščic %1$s uspešno shranjen</string>
+    <string name="edit_tilesource_elliptic_tile">Eliptični mercator</string>
+    <string name="edit_tilesource_maxzoom">Največja povečava</string>
+    <string name="edit_tilesource_expiration_time">Poteče (minute)</string>
+    <string name="edit_tilesource_minzoom">Najmanjša povečava</string>
+    <string name="edit_tilesource_url_to_load">URL</string>
+    <string name="edit_tilesource_choose_existing">Izberite obstoječo…</string>
+    <string name="edit_tilesource_name">Ime</string>
+    <string name="maps_define_edit">Določi/Uredi …</string>
+	<string name="tip_map_styles_t">OsmAnd podpira prikazovanje vektorskih zemljevidov za uporabo brez povezave v različnih slogih, tako da ustrezajo vašim potrebam:
+		\n\nRazen \'privzetega\' sloga zemljevida, lahko v \'Meni\' → \'Nastavitve zaslona\' → \'Slog zemljevida\' zberete npr.:
+		\n\t* 
+		\n\t* 
+		\n\t*
+	</string>
+    <string name="base_world_map">Osnovni zemljevid sveta</string>
+	<string name="default_and">in</string>
+    <string name="default_or">ali</string>
+	<string name="route_is_too_long">OsmAnd usmerjanje brez povezave lahko traja zelo dolgo (ali včasih ne deluje) za točke, ki so med sabo oddaljene več kot 200 km. Za boljše delovanje boste morda želeli dodati kakšno vmesno točko na poti.</string>
+	<string name="auto_zoom_none">Ne samodejna povečava</string>
+	<string name="auto_zoom_farthest">Na dolge razdalje</string>
+	<string name="map_magnifier">Povečava zemljevida</string>
+	<string name="auto_zoom_far">Na srednje razdalje</string>
+	<string name="auto_zoom_close">Na kratke razdalje</string>
+	<string name="remember_choice">Zapomni si mojo izbiro</string>
+    <string name="gps_status_eclipsim">GPS Status</string>
+    <string name="animate_routing_route_not_calculated">Najprej je treba preračunati pot</string>
+    <string name="animate_routing_route">Preizkusi s podatki izračunane poti </string>
+    <string name="animate_routing_gpx">Preizkusi z uporabo sledi GPX</string>
+    <string name="osmodroid_refresh">Osvežitev kanalov</string>
+    <string name="app_mode_hiking">Pohodništvo</string>
+    <string name="app_mode_motorcycle">Motorno kolo</string>
+    <string name="app_mode_boat">Čoln</string>
+    <string name="app_mode_aircraft">Letalo</string>
+    <string name="tip_faq_t">Obiščite https://code.google.com/p/osmand/wiki/FAQ za ogled pogosto zastavljenih vprašanj.</string>
+    <string name="tip_faq">Pogosto zastavljena vprašanja</string>
+    <string name="local_osm_changes_delete_all_confirm">Izbrisali boste %1$d osm sprememb. Ali ste prepričani?</string>
+    <string name="local_osm_changes_delete_all">Izbriši vse</string>
+    <string name="map_widget_map_rendering">Upodabljanje zemljevida:</string>
+    <string name="amenity_type_seamark">Pomorski znak</string>
+    <string name="app_modes_choose_descr">Izberite uporabne profile, ki so vidni v aplikaciji</string>
+    <string name="app_modes_choose">Profili aplikacije</string>
+	<string name="osmodroid_seek">Poišči predmet</string>
+    <string name="guidance_preferences_descr">Nastavitve navigacije</string>
+    <string name="disable_complex_routing_descr">Onemogoči 2-fazno usmerjanje za avtomobilsko navigacijo</string>
+    <string name="routing_preferences_descr">Nastavitve usmerjanja</string>
+    
+    <string name="speech_rate_descr">Določitev hitrosti govora za TTS</string>
+    <string name="speech_rate">Hitrost govora</string>
+    <string name="complex_route_calculation_failed">Hitri izračun poti ni uspel (%s), preklopljeno na počasni izračun.</string>
+    <string name="disable_complex_routing">Onemogoči zapleteno usmerjanje</string>
+    <string name="osmodroid_unseek">Odzbrati predmet</string>
+    <string name="lang_hr">Hrvaščina</string>
+    <string name="lang_zh">Kitajščina</string>
+    <string name="lang_pt_br">Portugalščina (Brazilija)</string>
+    <string name="lang_en">Angleščina</string>
+	<string name="lang_hy">Armenščina</string>
+	<string name="lang_eu">Baskovščina</string>
+	<string name="lang_be">Beloruščina</string>
+	<string name="lang_bs">Bosanščina</string>
+	<string name="lang_bg">Bolgarščina</string>
+	<string name="lang_ca">Katalonščina</string>
+	<string name="lang_cs">Češčina</string>
+	<string name="lang_da">Danščina</string>
+	<string name="lang_nl">Nizozemščina</string>
+	<string name="lang_fi">Finščina</string>
+	<string name="lang_fr">Francoščina</string>
+	<string name="lang_ka">Gruzijščina</string>
+	<string name="lang_de">Nemščina</string>
+	<string name="lang_el">Grščina</string>
+	<string name="lang_iw">Hebrejščina</string>
+	<string name="lang_hi">Hindijščina</string>
+	<string name="lang_hu">Madžarščina</string>
+	<string name="lang_id">Indonezijščina</string>
+	<string name="lang_it">Italijanščina</string>
+	<string name="lang_ja">Japonščina</string>
+	<string name="lang_ko">Korejščina</string>
+	<string name="lang_lv">Latvijščina</string>
+	<string name="lang_lt">Litovščina</string>
+	<string name="lang_no">Norveščina</string>
+	<string name="lang_pl">Poljščina</string>
+	<string name="lang_pt">Portugalščina</string>
+	<string name="lang_ro">Romunščina</string>
+	<string name="lang_ru">Ruščina</string>
+	<string name="lang_sk">Slovaščina</string>
+	<string name="lang_sl">Slovenščina</string>
+	<string name="lang_es">Španščina</string>
+	<string name="lang_sv">Švedščina</string>
+	<string name="lang_tr">Turščina</string>
+	<string name="lang_uk">Ukrajinščina</string>
+	<string name="lang_vi">Vietnamščina</string>
+	<string name="lang_cy">Valižanščina</string>
+	<string name="index_name_canada">Severna Amerika - Kanada</string>
+    <string name="index_name_italy">Evropa - Italija</string>
+    <string name="index_name_gb">Evropa - Velika Britanija</string>
+    <string name="routing_attr_prefer_motorway_name">Raje avtoceste</string>
+	<string name="routing_attr_prefer_motorway_description">Raje avtoceste</string>
+	<string name="routing_attr_short_way_name">Najkrajša pot</string>
+	<string name="routing_attr_short_way_description">Uporabi najkrajšo pot</string>
+	<string name="routing_attr_avoid_toll_name">Izogibanje cestninskih cest</string>
+	<string name="routing_attr_avoid_toll_description">Izogibanje cestam z obveznim plačilom cestnine</string>
+	<string name="routing_attr_avoid_unpaved_name">Izogibanje neasfaltiranih cest</string>
+	<string name="routing_attr_avoid_unpaved_description">Izogibanje neasfaltiranih cest</string>
+	<string name="routing_attr_avoid_ferries_name">Izogibanje trajektom</string>
+	<string name="routing_attr_avoid_ferries_description">Izogibanje trajektom</string>
+	<string name="routing_attr_avoid_motorway_name">Izogibanje avtocestam</string>
+	<string name="routing_attr_avoid_motorway_description">Izogibanje avtocestam</string>
+	<string name="routing_attr_weight_name">Največja teža</string>
+	<string name="routing_attr_weight_description">Določite težo vozila za omejitve</string>
+    <string name="app_mode_truck">Tovornjak</string>
+    <string name="index_item_world_bitcoin_payments">Svetovna Bitcoin plačila</string>
+	<string name="index_item_world_basemap">Pregledni zemljevid sveta</string>
+    <string name="index_item_world_ski">Svetovna smučišča</string>
+    <string name="lang_af">Afrikanščina</string>
+	<string name="voice_pref_title">Glas</string>
+    <string name="misc_pref_title">Razno</string>
+    <string name="localization_pref_title">Lokalizacija</string>
+    <string name="index_item_world_altitude_correction">Svetovni popravki nadmorske višine</string>
+	<string name="index_item_world_seamarks">Svetovne pomorske oznake</string>
+	<string name="keep_and_add_destination_point">Dodaj kot ciljno točko</string>
+    <string name="select_gpx">Izberite GPX…</string>
+    <string name="route_descr_select_destination">Izberite cilj</string>
+    <string name="route_descr_select_on_map">Izberite na zemljevidu…</string>
+    <string name="route_descr_favorite">Priljubljene…</string>
+    <string name="android_19_location_disabled">Od verzije KitKat naprej prenos posodobitev zemljevidov ni mogoč na prejšnjo mesto hrambe (%s). Ali želite to spremeniti na takšno mesto, kjer bo posodobitev dovoljena in skopirati vse zemljevide tja?
+        \n Opomba: stare datoteke ne bodo spremenjene.
+        \n Opomba: zemljevidov si aplikaciji OsmAnd and OsmAnd+ ne bosta mogli deliti. </string>
+    <string name="application_dir_change_warning2">OsmAnd lahko poskusi premakniti podatke na novo mesto hrambe.  Ali si želite tega?</string>
+    <string name="copying_osmand_one_file_descr">Kopiranje datoteke (%s) na novo mesto hrambe...</string>
+    <string name="copying_osmand_files_descr">Kopiranje datotek OsmAnd na novo mesto hrambe (%s)</string>
+    <string name="copying_osmand_files">Kopiranje datotek programa OsmAnd</string>
+    <string name="always_center_position_on_map">Prikaz položaja vedno v središču</string>
+    <string name="index_item_nation_addresses">Naslovi za celotno državo</string>
+	<string name="lang_mr">Maratščina</string>
+	<string name="calculate_osmand_route_without_internet">Izračunanje OsmAnd poti brez interneta</string>
+    <string name="gpx_option_calculate_first_last_segment">Izračunanje OsmAnd poti za prvi in zadnji odsek poti</string>
+    <string name="use_displayed_track_for_navigation">Ali želite uporabiti prikazani posnetek za navigacijo?</string>
+    <string name="route_preferences">Nastavitve za pot</string>
+    <string name="route_info">Informacije o poti</string>
+    <string name="calculate_osmand_route_gpx">Izračunanje OsmAnd poti brez povezave</string>
+    <string name="interrupt_music_descr">Prekinitev glasbe med obvestili</string>
+	<string name="interrupt_music">Prekinitev glasbe</string>
+	<string name="share_route_as_gpx">Delitev poti kot datoteka GPX</string>
+	<string name="share_route_subject">Pot deljena preko OsmAnd-a</string>
+	<string name="navigation_intent_invalid">Neveljavna oblika: %s</string>
+<string name="tip_recent_changes_1_7_1_t">Spremembe v 1.7:
+	\n\t* POMEMBNO Zemljevidi morajo biti novejši od februarja 2014.
+	\n\t* Popolnoma posodobljeno usmerjanje (hitro in natančno)
+	\n\t* Nov zaslon z načrtovanjem poti (bolj intuitiven in zmogljivejši)
+	\n\t** OPOMBA GPX pot je na razpolago pod gumbom Nastavitve poti
+	\n\t* Samodejno skrivanje gumbov v navigacijskem načinu
+	\n\t* Izračunanje brez povezave poti do prve točke GPX poti (opcija \'prenesi celotno progo\')
+	\n\t* Aktivna simulacija v predorih
+	\n\t* Veliko malih izboljšav v uporabniškem vmesniku in uporabnostni popravki
+	\n\t* Nastavitev hitrost govora za dostopnost
+    </string>
+    <string name="osmo_settings_uuid">Enolični ID naprave</string>
+    <string name="osmo_settings_descr">Nastavi možnosti sledenja in osebni sledilni kanal</string>
+    <string name="osmo_plugin_description">"OpenStreetMap napredno sledenje v živo, oglejte si http://osmo.mobi. Omogoča možnosti sledenja drugih naprav in biti sleden. Ustvarite anonimne skupine, katerih člani si med seboj delite lokacije. Ponuja različne možnosti za trajno sledenje ali sledenje v okviru sej. Anonimne skupine so omejene na nekaj dni in nekatere funkcije, npr. ni upravljanja na daljavo in ni skrbnika skupine. Polno delujoče skupine je potrebno ustvariti na spletnem mestu in le registrirani uporabniki imajo dostop do njih. "</string>
+    <string name="osmo_plugin_name">OsMo (Napredno sledenje v živo)</string>
+    <string name="keep_informing_never">Nikoli</string>
+    <string name="keep_informing_descr">Napoveduj navigacijska navodila v rednih časovnih presledkih</string>
+    <string name="keep_informing">Ponavljanje navigacijskih navodil</string>
+	<string name="osmo_settings">OpenStreetMap sledenje</string>
+   	<string name="arrival_distance_descr">Kako hitro želite napoved prihoda?</string>
+    <string name="arrival_distance">Napoved prihoda</string>
+    
+    <string name="osmo_io_error">OsMo problem povezave: </string>
+    <string name="osmo_mode_on">Končaj OsMo sejo</string>    
+    <string name="osmo_mode_off">Začni OsMo sejo</string>
+    <string name="osmo_sign_in">Prijava</string>
+    <string name="osmo_create_groups_confirm">Za ustvarjanje skupin morate biti registrirani uporabnik OsMo.</string>
+    <string name="osmo_credentials_not_valid">Vaše OsMo poverilnice niso veljavne.</string>
+    <string name="osmo_follow">Sledi</string>
+    <string name="osmo_regenerate_login_ids">Ustvari nov ID uporabnika</string>
+    <string name="osmo_set_moving_target">Nastavi kot premikajočo se tarčo</string>
+    <string name="osmo_cancel_moving_target">Opusti premikajočo se tarčo</string>
+    <string name="osmo_connect_to_my_nickname">Moj vzdevek</string>
+    <string name="osmo_user_name">Uporabnik</string>
+	<string name="color_red">rdeča</string>
+	<string name="color_pink">rožnata</string>
+	<string name="color_orange">oranžna</string>
+	<string name="color_brown">rjava</string>
+	<string name="color_yellow">rumena</string>
+	<string name="color_lightblue">svetlo modra</string>
+	<string name="color_blue">modra</string>
+	<string name="color_green">zelena</string>
+	
+    <string name="osmo_edit_device">Spreminjanje lastnosti uporabnika</string>
+    <string name="osmo_edit_color">Barva za prikaz</string>
+    <string name="osmo_group_info">Informacije</string>
+    <string name="osmo_group">OsMo skupina</string>
+    <string name="osmo_group_share">Za povezavo v skupino %2$s določite ID skupine (%1$s) ali kliknite %3$s.</string>
+    <string name="osmo_share_connect_device">Trajno dovoli sledenje tej napravi</string>
+    <string name="osmo_share_current_session">Deli trenutno sejo v brskalniku</string>
+    <string name="osmo_session_not_available">Seja ni na voljo. Preverite, če je \'Pošiljanje lokacij\' omogočeno.</string>
+    <string name="osmo_share_session">Deli sejo</string>
+    <string name="int_days">dni</string>
+    <string name="osmo_group_description">Opis</string>
+    <string name="osmo_group_policy">Politika</string>
+    <string name="osmo_center_location">Na sredino zaslona</string>
+    <string name="osmo_use_server_name">Registrirano ime</string>
+    <string name="osmo_track_interval">Interval beleženja</string>
+	<string name="osmo_expire_group">Poteče čez</string>
+    <string name="osmo_connect_to_device_name">Uporabniško ime</string>
+    <string name="osmo_connect_to_group_id">ID skupine</string>
+    <string name="osmo_group_name">Ime skupine</string>
+    <string name="osmo_connect_to_device">Povezava z napravo</string>
+    <string name="osmo_connect_to_group">Povezava s skupino</string>
+    <string name="osmo_create_group">Ustvari skupino</string>
+    <string name="osmo_activity">OpenStreetMap Sledenje</string>
+    <string name="osmo_enable_tracker">Pošiljanje mojih lokacij</string>
+    <string name="osmo_control">OsMo hiter dostop</string>
+    <string name="osmo_connected_devices">Povezane naprave</string>
+    <string name="osmo_auth_pending">Čakanje na dovoljenje...</string>
+    <string name="osmo_regenerate_login_ids_confirm">Ali ste prepričani, da želite ustvariti nov ID uporabnika? Vse naprave, ki so povezane z vami, vam ne bodo mogle več slediti.</string>
+    <string name="osmo_track_interval_descr">Izberite časovni interval za pošiljanje lokacije</string>
+    <string name="osmo_connect_menu">Poveži</string>
+    <string name="gpx_info_distance">Razdalja: %1$s (%2$s točk) </string>
+	<string name="gpx_info_start_time">Čas začetka: %1$tF,  %1$tT </string>
+	<string name="gpx_info_end_time">Čas konca: %1$tF,  %1$tT </string>
+	<string name="gpx_info_average_speed">Povprečna hitrost: %1$s </string>
+	<string name="gpx_info_maximum_speed">Najvišja hitrost: %1$s </string>
+	<string name="gpx_info_avg_altitude">Povprečna višina: %1$s</string>
+	<string name="loading_smth">Nalaganje %1$s …</string>
+    <string name="map_widget_plain_time">Trenutni čas</string>
+    <string name="selected">izbrano</string>
+    <string name="gpx_timespan">Časovni razpon: %1$s</string>
+	<string name="gpx_selection_number_of_points"> %1$s točk</string>
+    <string name="gpx_selection_point">Točka %1$s</string>
+    <string name="gpx_selection_current_track">snemanje</string>
+    <string name="gpx_selection_points">%1$s \nTočk</string>
+    <string name="gpx_file_is_empty">Sled GPX je prazna</string>
+    <string name="selected_track">Izbrane sledi</string>
+    <string name="my_tracks">Vse sledi</string>
+    <string name="my_data_Button">Moji kraji</string>
+    <string name="my_data_activity">Moji kraji</string>
+    <string name="osmo_user_joined">Uporabnik %1$s se je pridružil skupini %2$s</string>
+    <string name="osmo_user_left">Uporabnik %1$s je zapustil skupino %2$s</string>
+    <string name="osmo_show_group_notifications">Prikaži obvestila skupine</string>
+    <string name="osmo_show_group_notifications_descr">Prikaži pojavna obvestila, ko se uporabnik pridruži ali zapusti skupino</string>
+    <string name="osmo_session_id_share">URL seje za sledenje napravi (%1$s)</string>
+    <string name="import_save">Shrani</string>
+	<string name="osmo_conn_successfull">Povezava vzpostavljena: %1$s </string>
+    <string name="osmo_session_token">Žeton seje: %1$s</string>
+    <string name="gpx_timemoving">Čas premikanja: %1$s</string>
+    <string name="local_index_select_gpx_file">Izberite za prikaz</string>
+    <string name="sort_by_distance">Razvrsti po razdalji</string>
+    <string name="sort_by_name">Razvrsti po imenu</string>
+    <string name="visible_element">Pokaži na zemljevidu</string>
+    <string name="show_zoom_buttons_navigation_descr">Pokaži gumbe za povečavo med navigacijo</string>
+    <string name="show_zoom_buttons_navigation">Pokaži gumbe za povečavo</string>
+    <string name="save_as_favorites_points">Shrani kot skupino priljubljenih</string>
+    <string name="select_destination_and_intermediate_points">Izberite točke</string>
+    <string name="layer_amenity_label">Oznake točk</string>
+    <string name="gpx_wpt">Točka</string>
+    <string name="selected_gpx_info_show">\n\nPritisnite in držite za prikaz na zemljevidu</string>
+    <string name="delay_navigation_start">Samodejno začni vodenje od zavoja do zavoja (turn-by-turn)</string>
+    <string name="gpx_info_subtracks">"Podsledi: %1$s "</string>
+	<string name="gpx_info_waypoints">"Točke: %1$s "</string>
+	<string name="gpx_info_diff_altitude">Višinski razpon: %1$s</string>
+	<string name="gpx_info_asc_altitude">Spust/vzpon: %1$s</string>
+    <string name="gpx_selection_segment_title">Odsek</string>
+    <string name="gpx_selection_route_points">%1$s
+\nTočk na poti %2$s</string>
+    <string name="gpx_selection_track">%1$s
+\nSled %2$s</string>
+    <string name="gpx_available_current_track">Trenutna shranjena sled</string>
+    <string name="my_favorites">Moji priljubljeni</string>
+    <string name="share_fav_subject">Priljubljeni deljeni preko OsmAnd-a</string>
+	<string name="share_fav">Deli</string>
+	<string name="import_file_favourites">Shraniti kot GPX datoteko ali uvoziti med priljubljene?</string>
+	<string name="local_index_mi_export">Izvozi</string>
+	<string name="route_descr_destination">\t</string>
+    <string name="osmo_settings_debug">Podatki razhroščevanja</string>
+    <string name="use_points_as_intermediates">Izračunanje poti med točkami</string>
+    <string name="osmo_locations_sent">"Lokacije poslane %1$d (v medpomnilniku %2$d) "</string>
+    <string name="seconds_ago">sekund nazaj</string>
+    <string name="minutes_ago">minut nazaj</string>
+    <string name="hours_ago">ur nazaj</string>
+    <string name="osmo_connect">Poveži se z</string>
+    <string name="none_selected_gpx">Ni izbranih GPX datotek. Izberete tako, da pritisnete in zadržite ime želene sledi.</string>
+    <string name="gpx_split_interval">Interval za razdelitev</string>
+    <string name="osmo_server_operation_failed">Neuspela operacija OsMo strežnika</string>
+    <string name="osmo_groups">OsMo skupine/naprave</string>
+    <string name="osmo_auto_send_locations">Samodejno začni sejo sledilnika</string>
+    <string name="osmo_tracker_id">Osebni ID sledilnika</string>
+    <string name="osmo_tracker_id_descr">Kliknite za ogled ali delitev ID sledilnika. Z uporabo ID sledilnika povezane naprave lahko spremljajo vse premike te naprave! Če želite prekiniti povezavo, izberite možnost Obnovitev.</string>
+    <string name="osmo_mode_restart">Znova zaženite OsMo sejo</string>
+    <string name="local_index_unselect_gpx_file">Preklicati izbor</string>
+    <string name="osmo_tracker_id_share">Za povezavo s ciljno napravo %2$s, kliknite na link %3$s ali določite ID sledilnika (%1$s)</string>
+    <string name="osmo_connect_to_device_tracker_id">ID sledilnika</string>
+    <string name="osmo_auto_send_locations_descr">Samodejno začni sejo sledilnika in pošiljanje lokacije po zagonu aplikacije</string>
+    <string name="tip_recent_changes_1_8_alpha">"Spremembe v 1.8:\n\t* Računanje poti med točkami poti v sledi GPX\n\t* Spremenjena razporeditev držav za prenose (podpira iskanje krajevnih imen)\n\t* Podpira GPX/KML uvoz (pretvorba iz KML v GPX)\n\t* Sledi GPX premeščene v \'Moji podatki\'\n\t* Sedaj lahko razdelite sled GPX po razdalji in preverite višinsko razliko/hitrost\n\t* Samodejni začetek navigacije po zakasnitvi "</string>
+    <string name="no_index_file_to_download">Nič za prenesti, prosim preverite internetno povezavo.</string>
+    <string name="keep_navigation_service">Obdrži</string>
+	<string name="stop_navigation_service">Prekini</string>
+	<string name="enable_sleep_mode">Omogoči način spanja sprejemnika GPS</string>
+	<string name="gps_wake_up_timer">Interval prebujanja GPS-a</string>
+	<string name="sleep_mode_stop_dialog">Prekinem spanje sprejemnika GPS?</string>
+	<string name="map_preferred_locale_descr">Jezik za oznake na zemljevidu (če ni na voljo bodo uporabljena angleška ali lokalna imena)</string>
+    <string name="map_preferred_locale">Jezik za zemljevid</string>
+    <string name="local_map_names">Lokalna imena</string>
+    <string name="lang_sw">Svahili</string>
+    <string name="lang_he">Hebrejščina</string>
+    <string name="forward">Naprej</string>
+    <string name="home">Dom</string>
+    <string name="live_monitoring_m_descr">Pošlji sledenje določeni spletni storitvi, če je GPX snemanje omogočeno.</string>
+	<string name="live_monitoring_m">Sledenje v živo (zahteva GPX)</string>
+    <string name="live_monitoring_start">Začni sledenje v živo</string>
+	<string name="live_monitoring_stop">Končaj sledenje v živo</string>
+	<string name="gpx_monitoring_start">Začni GPX snemanje</string>
+	<string name="gpx_monitoring_stop">Končaj GPX snemanje</string>
+    <string name="gpx_start_new_segment">Začni nov segment</string>
+    <string name="rendering_attr_hideBuildings_name">Skrij stavbe</string>
+    <string name="rendering_attr_hideNonVehicleHighways_name">Skrij neprevozne ceste</string>
+    <string name="rendering_attr_hideText_name">Skrij besedilo</string>
+    <string name="rendering_attr_hideWoodScrubs_name">Skrij gozdove in grmičevje</string>
+    <string name="rendering_attr_buildings15zoom_name">Zgradbe v povečavi 15</string>
+    <string name="rendering_attr_moreDetailed_name">Več podrobnosti</string>
+    <string name="rendering_attr_lessDetailed_name">Manj podrobnosti</string>
+    <string name="rendering_attr_hideAccess_name">Skrij omejitve dostopa</string>
+    <string name="rendering_attr_showAccess_name">Prikaži omejitve dostopa</string>
+    <string name="rendering_attr_showSurfaceGrade_name">Pokaži kakovost cest</string>
+    <string name="rendering_attr_showSurfaces_name">Pokaži površino cest</string>
+    <string name="rendering_attr_showCycleRoutes_name">Pokaži kolesarske poti</string>
+    <string name="osmo_auth_error_short">Dovoljenje neuspešno</string>
+    <string name="osmo_group_by_invite">Vstop s povabilom</string>
+    <string name="osmo_group_information">Prosimo, preberite preden ustvarite skupino!</string>
+    <string name="osmo_not_signed_in">OsMo prijava ni uspela</string>
+    <string name="osmo_gpx_points_downloaded">Prejeto %1$s OsMo točk.</string>
+    <string name="osmo_auto_connect_descr">Samodejna povezava s storitvijo po zagonu aplikacije</string>
+    <string name="osmo_auto_connect">Samodejna povezava</string>
+    <string name="osmo_start_service">OsMo storitev</string>
+    <string name="osmo_gpx_track_downloaded">Prejeta OsMo sled %1$s.</string>
+    <string name="lang_fa">Perzijščina</string>
+	<string name="osmo_auth_error">OsMo dovoljenje javlja napako: %1$s.\n Lahko je samo začasni problem storitve ali pa je vaša registracija potekla.\n Ali želite nadaljevati z novo registracijo?</string>
+    <string name="osmo_group_information_desc">" - Vse ustvarjene skupine so javne! Če želite biti anonimni, povežite naprave neposredno preko Tracker ID-ja.\n - V skupino se lahko registrira do 16 oseb.\n - Pri nedejavnosti ali če je samo ena oseba dejavna v obdobju dveh tednov, bo skupina izbrisana.\n - Omejite lahko vstop v skupino samo s povabilom, vendar za kontrolo skupine morate uporabiti admin konzolo.\n - Če želite ustvariti skupino, vendar z drugimi pogoji, se obrnite na http://osmo.mobi"</string>
+    <string name="lang_al">Albanščina</string>
+	<string name="lang_ar">Arabščina</string>
+	<string name="lang_sr">Srbščina</string>
+	<string name="lang_zh_CN">Poenostavljena kitajščina</string>
+	<string name="lang_zh_TW">Tradicionalna kitajščina</string>
+	<string name="lang_sc">Sardinščina</string>
+	<string name="rendering_attr_subwayMode_name">Način podzemne železnice</string>
+ 	<string name="continue_navigation">Nadaljuj navigacijo</string>
+    <string name="rendering_attr_alpineHiking_name">Skala alpskega pohodništva (SAC)</string>
+    <string name="osmo_invite">Povabite...</string>
+    <string name="osmo_specify_tracker_id">Prosim, določite ID</string>
+    <string name="arrival_distance_factor_early">Zgodaj</string>
+    <string name="arrival_distance_factor_normally">Običajno</string>
+    <string name="arrival_distance_factor_late">Pozno</string>
+    <string name="arrival_distance_factor_at_last">V zadnjih metrih</string>
+    <string name="hide_all_waypoints">Odstrani vse</string>
+<string name="rendering_attr_coloredBuildings_name">Pobarvane stavbe</string>
+    <string name="osmo_leave_confirmation_msg">Ali želite zapustiti skupino %1$s?</string>
+    <string name="av_camera_pic_size">Velikost fotografije</string>
+	<string name="av_camera_pic_size_descr">Izberite velikost posnetkov vgrajenega fotoaparata</string>
+    <string name="announce_nearby_favorites">Najavi bližino priljubljenih krajev</string>
+<string name="download_additional_maps">Prenos manjkajočih zemljevidov %1$s (%2$d MB)?</string>
+    <string name="more">Več...</string>
+    <string name="rendering_value_car_name">Avtomobil</string>
+    <string name="rendering_value_bicycle_name">Kolo</string>
+    <string name="rendering_value_pedestrian_name">Pešec</string>
+    <string name="flat_list_waypoitns">Vse</string>
+    <string name="way_alarms">Ovire</string>
+    <string name="speak_favorites">Najavi priljubljene</string>
+    <string name="int_hour">ur</string>
+    <string name="duration">Trajanje</string>
+    <string name="distance">Razdalja</string>
+    <string name="flat_list_waypoints">Vse</string>
+    <string name="targets">Cilji</string>
+    <string name="confirm_every_run">Vsakič vprašaj</string>
+	<string name="save_global_track_interval">Splošni interval beleženja</string>
+	<string name="save_track_to_gpx_globally">Beleži sled v datoteko GPX</string>
+	<string name="save_track_interval_globally">Interval beleženja</string>
+	<string name="rendering_attr_publicTransportMode_name">Način javni prevoz</string>
+	<string name="record_plugin_name">Registracija vaših potovanj</string>
+    <string name="index_tours">Izleti</string>
+    <string name="waypoints">Točke</string>
+    <string name="speak_poi">Napovej POI</string>
+    <string name="rendering_value_browse_map_name">Brskaj zemljevid</string>  
+    <string name="rendering_attr_alpineHiking_description">Prikaz stez po SAC lestvici</string>
+    <string name="pause_navigation">Zaustavi navigacijo</string>
+    <string name="save_global_track_interval_descr">Izerite interval beleženja za splošno snemanje sledi (omogočeno z gumbom za snemanje GPX na zemljevidu)</string>
+	<string name="save_track_to_gpx_globally_descr">Splošno beleženje položaja v datoteko GPX lahko vklopite ali izklopite z gumbom za snemanje na ekranu z zemljevidom</string>
+	<string name="record_plugin_description">Shranite vaše sledi s pritiskom na gumb na oknu z zemljevidom. Pokaži nastavitve za snemanje vaših potovanj v krajevne datoteke GPX ali v oblak z uporabo spletnih storitev.</string>
+    <string name="rendering_attr_osmcTraces_description">Prikaz stez po OSMC sledeh</string>
+    
+	</resources>
